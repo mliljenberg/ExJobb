@@ -24,6 +24,7 @@
 \usepackage[protrusion=true,expansion=true]{microtype} % Better typography
 \usepackage{graphicx} % Required for including pictures
 \usepackage{wrapfig} % Allows in-line images
+\usepackage{changepage}
 
 \usepackage{mathpazo} % Use the Palatino font
 \usepackage[T1]{fontenc} % Required for accented characters
@@ -34,89 +35,112 @@
 \renewcommand{\@listI}{\itemsep=0pt} % Reduce the space between items in the itemize and enumerate environments and the bibliography
 
 \renewcommand{\maketitle}{ % Customize the title - do not edit title and author name here, see the TITLE block below
-\begin{flushright} % Right align
-{\LARGE\@title} % Increase the font size of the title
-
-\vspace{50pt} % Some vertical space between the title and author name
-
-{\large\@author} % Author name
-\\\@date % Date
-
-\vspace{40pt} % Some vertical space between the author block and abstract
-\end{flushright}
+	\begin{flushright} % Right align
+		{\LARGE\@title} % Increase the font size of the title
+		
+		\vspace{50pt} % Some vertical space between the title and author name
+		
+		{\large\@author} % Author name
+		\\\@date % Date
+		
+		\vspace{40pt} % Some vertical space between the author block and abstract
+	\end{flushright}
 }
+
 
 %----------------------------------------------------------------------------------------
 %	TITLE
 %----------------------------------------------------------------------------------------
 
 \title{\textbf{Creating a Global Design}\\ % Title
-Target document} % Subtitle
+	Target document} % Subtitle
 
 \author{\textsc{Marcus Liljenberg} % Author
-\\{\textit{Lunds Universitet}}} % Institution
+	\\{\textit{Lunds Universitet}}} % Institution
 
 \date{\today} % Date
 
 %----------------------------------------------------------------------------------------
 
 \begin{document}
-
-
-\maketitle % Print the title section
-
-%----------------------------------------------------------------------------------------
-%	ABSTRACT AND KEYWORDS
-%----------------------------------------------------------------------------------------
-
-%\renewcommand{\abstractname}{Summary} % Uncomment to change the name of the abstract to something else
-
-\section*{Background}
-According to several independent studies it is shown that western and eastern cultures handle perception of information differently. Westerners focus more on specific object and their traits while people with eastern cultural upbringing generally focus more on the object in regards to the context and how its relationship with other objects (KÄLLA). When looking at Chinese and Swedish design of web interfaces we can clearly see that Chinese applications contain more information and can be seen as more cluttered with a lot of information in the same space. Swedish/Western design on the other hand are usually very simple with focus on only one object "less is more" (källa?). Does the difference in design of the interfaces change how well people with different cultural upbringing use and understand the interfaces, or is the reason for different design in web interfaces simply because of cultural trends. Is there one way to design a interface for an certain task that works best for both cultures or should different interfaces be designed to optimize the user experience for the different cultures?
-%------------------------------------------------
-
-\section*{Project Scope}
-This project aim to get a understanding for how to create a global product in regards to User Experience. During this project two separate interfaces will be created for the same task. One interface will be created with a eastern (Chinese) "costumer" and one with a western (Swedish) "costumer". These two interfaces will be developed on web format as a single page application. Both of the different interfaces will then be tried on people with Swedish and Chine heritage. How the people use this interface to try and solve specific problems will be logged automatically. The logged data will then be analyzed using data mining algorithms to try and find a correlation and arrive at a conclusion. Depending on time remaining and results that are found a combined interface for both cultures will be created and tried. The data will be compared to the original interfaces to research if the best course of action is a combined interface or two separate ones.
-\\\\
-The questions I want to answer in this project are:
-
-\begin{itemize}
-	\item Is the cultural differences in User Interfaces a product of differences in perceiving information or just due to different trends?
-	\item Does different learning and understanding processes in a significant way affect how well people perform on differently designed interfaces?
-	\item Can one Global interface be created, or should you focus on creating separate ones for different cultures?
-\end{itemize}
-
-%------------------------------------------------
-
-\section*{Scientific Contributions}
-
-This thesis will contribute to User Experience research because it will provide a greater understanding for how important different cultures affect how well the users are able to use products. The thesis will also try to provide a estimate for how important design for different cultures are, i.e. should the designer create one well designed interface for both cultures or should he create separate ones.
-
-\section*{Previous work}
-holistic vs analytic (cite bla, bla)
-\\\\
-donald norman (user cented design)
-\\\\
-elements of user experience for web
-https://pdfs.semanticscholar.org/2ca7/0427dc56da115d40ecadaa309a1481154f86.pdf
-
-
-
-
-\section*{Methodology}
-As explained in the "Project Scope" this thesis will design two interfaces using user centered design principles based on (donald norman) and elements of user experience. This will be a iterative process with several incremental improvements. 
-
-The analysis will use data mining/machine learning algorithms to try and find correlation between how the users interact with the interfaces.
-
-\section*{Resources}
-The research will mostly be preformed from Tetra Pak office (Lund). Computer and software needed for the research will be provided by Tetra Pak. Swedish and Chinese contact persons will be employees in Tetra Paks Swedish and Chinese offices.
-
-
-%----------------------------------------------------------------------------------------
-%	BIBLIOGRAPHY
-%----------------------------------------------------------------------------------------
-
-
-%----------------------------------------------------------------------------------------
-
+	
+	
+	\maketitle % Print the title section
+	
+	%----------------------------------------------------------------------------------------
+	%	ABSTRACT AND KEYWORDS
+	%----------------------------------------------------------------------------------------
+	
+	%\renewcommand{\abstractname}{Summary} % Uncomment to change the name of the abstract to something else
+	\begin{adjustwidth}{-0.2cm}{}
+	\setlength\tabcolsep{2pt}
+	\begin{tabular}{ l c r }
+		\textbf{Master thesis author} & Marcus Liljenberg & dic13mli@student.lu.se \\
+		\textbf{Mentor} & ? & ? \\
+		\textbf{Examinator} & ? & ? \\
+		\textbf{Company contact person} & Engdahl Martin & Martin.Engdahl@tetrapak.com \\
+		\textbf{Start date} & 22 January 2018 &  \\
+		\textbf{End date} & 30 May 2018 &  \\
+	\end{tabular}
+\end{adjustwidth}
+	\section*{Background}
+	According to various independent studies, it is suggested that western and eastern cultures handle the perception of information differently. Westerners focus more on specific objects and their attributes while individuals with an eastern cultural upbringing generally focus more on the object in the context it is embedded in and how it relates to other objects \cite{Holistic_vs_Analytic}. When looking at Chinese and Swedish design of web interfaces, it is evident that Chinese applications contain more information and can be seen as more cluttered with a lot of information in the same space. Swedish design, conversely, is generally streamlined with an emphasis on only one object, following the principle of "less is more". Does the difference in design of the interfaces change how efficiently individuals with different cultural upbringing use and understand the interfaces, or is the reason for different designs in web interfaces simply because of cultural trends? Is there one way to design a interface for a certain task that works best for both cultures or should different interfaces be designed to optimize the user experience for the different cultures?
+	%------------------------------------------------
+	
+	\section*{Project Scope}
+	This project aims to understand how to create a global product in regards to User Experience. During this project two separate interfaces will be created for the same task. One interface will be created with an eastern (Chinese) customer and one with a western (Swedish) customer. These two interfaces will be developed on web format as a single page application. Both of the different interfaces will be subsequently tested on people with Swedish and Chinese heritages. How the people use this interface to try and solve specific problems will be logged automatically. The logged data will then be analyzed using data mining algorithms to try and find a correlation and arrive at a conclusion. Depending on time remaining and results that are found, a combined interface for both cultures will be created and tried. The data will be compared to the original interfaces to research if the best course of action is a combined interface or two separate ones.
+	\\\\
+	The questions I want to answer in this project are:
+	
+	\begin{itemize}
+		\item Are the cultural differences in User Interfaces a product of differences in perceiving information or just due to different trends?
+		\item Does different understanding processes in a significant way affect how well people perform on differently designed interfaces?
+		\item Can one Global interface be created, or should web designers focus on creating separate user interfaces for different cultures?
+	\end{itemize}
+	
+	%------------------------------------------------
+	
+	\section*{Scientific Contributions}
+	
+	This thesis will contribute to User Experience research by providing a more nuanced understanding of different cultures influence on how effectively users are able to use products. The thesis will also try to provide an estimate for how important design is for different cultures (i.e., should the designer create one well designed interface for both cultures or should the designer create separate ones).
+	
+	\section*{Previous work}
+	
+	"The Elements of User Experience: User-Centered Design for the Web and Beyond" is a guide for designing user-centered interfaces for web applications.
+	\cite{Elements}
+	\\\\
+	"The influence of culture: holistic versus analytic perception" analyses how different cultures process information and perceive information.
+	\cite{Holistic_vs_Analytic}
+	\\\\
+	"The Impact of Culture on Usability: Designing Usable Products for the International User" This paper examines the impact of culture on the usability and design of global applications.
+	\cite{Lodge2007}
+	\\\\
+	"Color appeal in website design within and across cultures: A multi-method evaluation" Examination of the color impact in web interfaces across cultures.
+	\cite{Color}
+	\\\\
+	"The Design of Everyday Things"
+	\cite{Norman}
+	\\\\
+	"Beyond Trust: Web Site Design Preferences Across Cultures"
+	\cite{Web_design_pref}
+	
+	
+	
+	\section*{Methodology}
+	As explained in the "Project Scope", this thesis will design two interfaces using user centered design principles based on principles from "The Design of Everyday Things" \cite{Norman} and "The Elements of User Experience" \cite{Elements}. This will be a iterative process with several incremental improvements and constant feedback from the costumer. 
+	
+	The analysis will use data mining/machine learning algorithms on the gathered data to try and find correlation between how the users interact with the interfaces.
+	
+	\section*{Resources}
+	The research will mostly be preformed from Tetra Pak office (Lund). Computer and software needed for the research will be provided by Tetra Pak. Swedish and Chinese contact persons will be employees in Tetra Paks Swedish and Chinese offices.
+	
+	
+	%----------------------------------------------------------------------------------------
+	%	BIBLIOGRAPHY
+	%----------------------------------------------------------------------------------------
+\bibliographystyle{unsrt}
+\bibliography{sample}
+	
+	%----------------------------------------------------------------------------------------
+	
 \end{document}

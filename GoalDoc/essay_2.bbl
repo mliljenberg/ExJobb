@@ -1,13 +1,37 @@
 \begin{thebibliography}{1}
 
-\bibitem{Smith:2012qr}
-J.~M. Smith and A.~B. Jones.
-\newblock {\em {B}ook {T}itle}.
-\newblock Publisher, 7th edition, 2012.
+\bibitem{Elements}
+Jesse~James Garrett.
+\newblock {\em The Elements of User Experience: User-Centered Design for the
+  Web and Beyond}.
+\newblock New Riders Publishing, Thousand Oaks, CA, USA, 2nd edition, 2010.
 
-\bibitem{Smith:2013jd}
-A.~B. Jones and J.~M. Smith.
-\newblock {A}rticle {T}itle.
-\newblock {\em Journal title}, 13(52):123--456, March 2013.
+\bibitem{Holistic_vs_Analytic}
+Richard~E. Nisbett and Yuri Miyamoto.
+\newblock The influence of culture: holistic versus analytic perception.
+\newblock {\em Trends in Cognitive Sciences}, 9(10):467 -- 473, 2005.
+
+\bibitem{Lodge2007}
+Carol Lodge.
+\newblock {\em The Impact of Culture on Usability: Designing Usable Products
+  for the International User}, pages 365--368.
+\newblock Springer Berlin Heidelberg, Berlin, Heidelberg, 2007.
+
+\bibitem{Color}
+Dianne Cyr, Milena Head, and Hector Larios.
+\newblock Colour appeal in website design within and across cultures: A
+  multi-method evaluation.
+\newblock {\em International Journal of Human-Computer Studies}, 68(1):1 -- 21,
+  2010.
+
+\bibitem{Norman}
+Donald~A. Norman.
+\newblock {\em The Design of Everyday Things}.
+\newblock Basic Books, Inc., New York, NY, USA, 2002.
+
+\bibitem{Web_design_pref}
+Carole Bonanni John~Bowes Cyr, Dianne and Joe Ilsever.
+\newblock Beyond trust: Web site design preferences across cultures.
+\newblock {\em Journal of Global Information Management (JGIM)}, 2005.
 
 \end{thebibliography}

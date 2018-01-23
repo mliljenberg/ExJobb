@@ -22,3 +22,12 @@ F-shaped pattern
 
 # SUS-A quick and dirty usability scale
 Sus modelen
+
+# Are Chinese Websites Too Complex?
+Can be used as a general example for hypotosis, not enough research data to be a concrete prof
+
+# Why You Only Need to Test with 5 Users
+Use during UX part explaining reasoning for only having 5 users
+
+# Usability Metrics
+Mention good bench marks (i should talk about diffrent types of messures in the report

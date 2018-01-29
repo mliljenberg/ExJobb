@@ -1,0 +1,226 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 2.8 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated as
+% required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+\sortlist[entry]{nty/global/}
+  \entry{brooke1996sus}{article}{}
+    \true{moreauthor}
+    \name{author}{1}{}{%
+      {{hash=BJ}{%
+         family={Brooke},
+         familyi={B\bibinitperiod},
+         given={John},
+         giveni={J\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {London, United kingdom}%
+    }
+    \strng{namehash}{BJ+1}
+    \strng{fullhash}{BJ+1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{B}
+    \field{sortinithash}{B}
+    \field{number}{194}
+    \field{pages}{4\bibrangedash 7}
+    \field{title}{SUS-A quick and dirty usability scale}
+    \field{volume}{189}
+    \field{journaltitle}{Usability evaluation in industry}
+    \field{year}{1996}
+  \endentry
+
+  \entry{Color}{article}{}
+    \name{author}{3}{}{%
+      {{hash=CD}{%
+         family={Cyr},
+         familyi={C\bibinitperiod},
+         given={Dianne},
+         giveni={D\bibinitperiod},
+      }}%
+      {{hash=HM}{%
+         family={Head},
+         familyi={H\bibinitperiod},
+         given={Milena},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=LH}{%
+         family={Larios},
+         familyi={L\bibinitperiod},
+         given={Hector},
+         giveni={H\bibinitperiod},
+      }}%
+    }
+    \keyw{Colour appeal, Culture, Website design, Multi-methodology,
+  Eye-tracking}
+    \strng{namehash}{CDHMLH1}
+    \strng{fullhash}{CDHMLH1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{C}
+    \field{sortinithash}{C}
+    \verb{doi}
+    \verb https://doi.org/10.1016/j.ijhcs.2009.08.005
+    \endverb
+    \field{issn}{1071-5819}
+    \field{number}{1}
+    \field{pages}{1 \bibrangedash  21}
+    \field{title}{Colour appeal in website design within and across cultures: A
+  multi-method evaluation}
+    \verb{url}
+    \verb http://www.sciencedirect.com/science/article/pii/S1071581909001116
+    \endverb
+    \field{volume}{68}
+    \field{journaltitle}{International Journal of Human-Computer Studies}
+    \field{year}{2010}
+  \endentry
+
+  \entry{bbc}{misc}{}
+    \list{publisher}{1}{%
+      {BBC}%
+    }
+    \field{labeltitlesource}{title}
+    \field{sortinit}{H}
+    \field{sortinithash}{H}
+    \field{title}{Home}
+    \verb{url}
+    \verb http://www.bbc.com/news
+    \endverb
+    \field{journaltitle}{BBC News}
+    \warn{\item Invalid format of field 'date' \item Invalid format of field
+  'date'}
+  \endentry
+
+  \entry{norman_metrics}{misc}{}
+    \name{author}{1}{}{%
+      {{hash=NJ}{%
+         family={Nielsen},
+         familyi={N\bibinitperiod},
+         given={Jakob},
+         giveni={J\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Nielsen Norman Group}%
+    }
+    \strng{namehash}{NJ1}
+    \strng{fullhash}{NJ1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{N}
+    \field{sortinithash}{N}
+    \field{title}{Usability Metrics}
+    \verb{url}
+    \verb https://www.nngroup.com/articles/usability-metrics/
+    \endverb
+    \field{journaltitle}{Nielsen Norman Group}
+  \endentry
+
+  \entry{Holistic_vs_Analytic}{article}{}
+    \name{author}{2}{}{%
+      {{hash=NRE}{%
+         family={Nisbett},
+         familyi={N\bibinitperiod},
+         given={Richard\bibnamedelima E.},
+         giveni={R\bibinitperiod\bibinitdelim E\bibinitperiod},
+      }}%
+      {{hash=MY}{%
+         family={Miyamoto},
+         familyi={M\bibinitperiod},
+         given={Yuri},
+         giveni={Y\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{NREMY1}
+    \strng{fullhash}{NREMY1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{N}
+    \field{sortinithash}{N}
+    \verb{doi}
+    \verb https://doi.org/10.1016/j.tics.2005.08.004
+    \endverb
+    \field{issn}{1364-6613}
+    \field{number}{10}
+    \field{pages}{467 \bibrangedash  473}
+    \field{title}{The influence of culture: holistic versus analytic
+  perception}
+    \verb{url}
+    \verb http://www.sciencedirect.com/science/article/pii/S1364661305002305
+    \endverb
+    \field{volume}{9}
+    \field{journaltitle}{Trends in Cognitive Sciences}
+    \field{year}{2005}
+  \endentry
+
+  \entry{top_sites_alexa}{misc}{}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{T}
+    \field{sortinithash}{T}
+    \field{title}{Top Sites in China The sites in the top sites lists are
+  ordered by their 1 month Alexa traffic rank.}
+    \verb{url}
+    \verb https://www.alexa.com/topsites/countries/CN
+    \endverb
+    \field{journaltitle}{Top Sites in China - Alexa}
+    \warn{\item Invalid format of field 'date' \item Invalid format of field
+  'date'}
+  \endentry
+
+  \entry{top_sites_china}{misc}{}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{T}
+    \field{sortinithash}{T}
+    \field{title}{Top sites ranking for all categories in China}
+    \verb{url}
+    \verb https://www.similarweb.com/top-websites/china
+    \endverb
+    \field{journaltitle}{Top Websites in China - SimilarWeb Website Ranking}
+    \warn{\item Invalid format of field 'date' \item Invalid format of field
+  'date'}
+  \endentry
+
+  \entry{tullis_albert_2011}{book}{}
+    \name{author}{2}{}{%
+      {{hash=TT}{%
+         family={Tullis},
+         familyi={T\bibinitperiod},
+         given={Tom},
+         giveni={T\bibinitperiod},
+      }}%
+      {{hash=AB}{%
+         family={Albert},
+         familyi={A\bibinitperiod},
+         given={Bill},
+         giveni={B\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Elsevier/Morgan Kaufmann}%
+    }
+    \strng{namehash}{TTAB1}
+    \strng{fullhash}{TTAB1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{T}
+    \field{sortinithash}{T}
+    \field{title}{Measuring the user experience: collecting, analyzing, and
+  presenting usability metrics}
+    \field{year}{2011}
+  \endentry
+\endsortlist
+\endinput

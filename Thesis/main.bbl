@@ -138,6 +138,19 @@
   'date'}
   \endentry
 
+  \entry{qq_homepage}{misc}{}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{H}
+    \field{sortinithash}{H}
+    \field{title}{homepage}
+    \verb{url}
+    \verb http://www.qq.com/
+    \endverb
+    \field{journaltitle}{QQ homepage}
+    \warn{\item Invalid format of field 'date' \item Invalid format of field
+  'date'}
+  \endentry
+
   \entry{norman_metrics}{misc}{}
     \name{author}{1}{}{%
       {{hash=NJ}{%
@@ -224,6 +237,40 @@
       {New York, NY, USA}%
     }
     \field{year}{2002}
+  \endentry
+
+  \entry{pernice2014people}{book}{}
+    \name{author}{3}{}{%
+      {{hash=PK}{%
+         family={Pernice},
+         familyi={P\bibinitperiod},
+         given={Kara},
+         giveni={K\bibinitperiod},
+      }}%
+      {{hash=WK}{%
+         family={Whitenton},
+         familyi={W\bibinitperiod},
+         given={Kathryn},
+         giveni={K\bibinitperiod},
+      }}%
+      {{hash=NJ}{%
+         family={Nielsen},
+         familyi={N\bibinitperiod},
+         given={Jakob},
+         giveni={J\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Nielsen Norman Group}%
+    }
+    \strng{namehash}{PKWKNJ1}
+    \strng{fullhash}{PKWKNJ1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{P}
+    \field{sortinithash}{P}
+    \field{title}{How People Read on the Web: The Eyetracking Evidence}
+    \field{year}{2014}
   \endentry
 
   \entry{top_sites_alexa}{misc}{}

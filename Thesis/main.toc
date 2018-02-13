@@ -43,29 +43,37 @@
 \contentsline {section}{\numberline {4.4}Conclusion Phase 1}{13}{section.51}
 \contentsline {subsection}{\numberline {4.4.1}Common Chinese design that differs from western design}{13}{subsection.52}
 \contentsline {subsection}{\numberline {4.4.2}Limitations}{14}{subsection.53}
-\contentsline {chapter}{\numberline {5}Phase 2 - Prototyping}{15}{chapter.54}
-\contentsline {section}{\numberline {5.1}Method}{15}{section.55}
-\contentsline {section}{\numberline {5.2}Results}{15}{section.56}
-\contentsline {subsection}{\numberline {5.2.1}Low-fi Prototype}{15}{subsection.57}
-\contentsline {subsection}{\numberline {5.2.2}High-fi Prototype}{15}{subsection.58}
-\contentsline {subsection}{\numberline {5.2.3}Testing of High-fi Prototype}{15}{subsection.59}
-\contentsline {section}{\numberline {5.3}Conclusion Phase 2}{15}{section.60}
-\contentsline {subsection}{\numberline {5.3.1}Limitations}{15}{subsection.61}
-\contentsline {chapter}{\numberline {6}Phase 4 - Building the Interfaces}{17}{chapter.62}
-\contentsline {section}{\numberline {6.1}Main Section 1}{17}{section.63}
-\contentsline {subsection}{\numberline {6.1.1}Subsection 1}{17}{subsection.64}
-\contentsline {subsection}{\numberline {6.1.2}Subsection 2}{17}{subsection.65}
-\contentsline {section}{\numberline {6.2}Main Section 2}{17}{section.66}
-\contentsline {chapter}{\numberline {7}Phase 5 - Analyzing Data}{19}{chapter.67}
-\contentsline {section}{\numberline {7.1}Main Section 1}{19}{section.68}
-\contentsline {subsection}{\numberline {7.1.1}Subsection 1}{19}{subsection.69}
-\contentsline {subsection}{\numberline {7.1.2}Subsection 2}{19}{subsection.70}
-\contentsline {section}{\numberline {7.2}Main Section 2}{19}{section.71}
-\contentsline {chapter}{\numberline {8}Discussion}{21}{chapter.72}
-\contentsline {section}{\numberline {8.1}Main Section 1}{21}{section.73}
-\contentsline {subsection}{\numberline {8.1.1}Subsection 1}{21}{subsection.74}
-\contentsline {subsection}{\numberline {8.1.2}Subsection 2}{21}{subsection.75}
-\contentsline {section}{\numberline {8.2}Main Section 2}{21}{section.76}
-\contentsline {chapter}{\numberline {9}Conclusion}{23}{chapter.77}
-\contentsline {section}{\numberline {9.1}Stuff i don't know where to put yet....)}{23}{section.78}
-\contentsline {chapter}{Bibliography}{25}{appendix*.79}
+\contentsline {chapter}{\numberline {5}Phase 2 - Prototyping}{17}{chapter.54}
+\contentsline {section}{\numberline {5.1}Method}{17}{section.55}
+\contentsline {subsection}{\numberline {5.1.1}Pilot study}{17}{subsection.56}
+\contentsline {section}{\numberline {5.2}Results}{17}{section.57}
+\contentsline {subsection}{\numberline {5.2.1}Low-fi Prototype}{17}{subsection.58}
+\contentsline {subsection}{\numberline {5.2.2}High-fi Prototype}{18}{subsection.59}
+\contentsline {subsubsection}{News Site}{18}{section*.60}
+\contentsline {subsection}{\numberline {5.2.3}Pilot study}{18}{subsection.61}
+\contentsline {section}{\numberline {5.3}Conclusion Phase 2}{18}{section.62}
+\contentsline {subsection}{\numberline {5.3.1}Pilot study}{18}{subsection.63}
+\contentsline {subsection}{\numberline {5.3.2}Limitations}{18}{subsection.64}
+\contentsline {chapter}{\numberline {6}Pilot study}{19}{chapter.65}
+\contentsline {section}{\numberline {6.1}Main Section 1}{19}{section.66}
+\contentsline {subsection}{\numberline {6.1.1}Subsection 1}{19}{subsection.67}
+\contentsline {subsection}{\numberline {6.1.2}Subsection 2}{19}{subsection.68}
+\contentsline {section}{\numberline {6.2}Main Section 2}{19}{section.69}
+\contentsline {chapter}{\numberline {7}Phase 4 - Building the Interfaces}{21}{chapter.70}
+\contentsline {section}{\numberline {7.1}Main Section 1}{21}{section.71}
+\contentsline {subsection}{\numberline {7.1.1}Subsection 1}{21}{subsection.72}
+\contentsline {subsection}{\numberline {7.1.2}Subsection 2}{21}{subsection.73}
+\contentsline {section}{\numberline {7.2}Main Section 2}{21}{section.74}
+\contentsline {chapter}{\numberline {8}Phase 5 - Analyzing Data}{23}{chapter.75}
+\contentsline {section}{\numberline {8.1}Main Section 1}{23}{section.76}
+\contentsline {subsection}{\numberline {8.1.1}Subsection 1}{23}{subsection.77}
+\contentsline {subsection}{\numberline {8.1.2}Subsection 2}{23}{subsection.78}
+\contentsline {section}{\numberline {8.2}Main Section 2}{23}{section.79}
+\contentsline {chapter}{\numberline {9}Discussion}{25}{chapter.80}
+\contentsline {section}{\numberline {9.1}Main Section 1}{25}{section.81}
+\contentsline {subsection}{\numberline {9.1.1}Subsection 1}{25}{subsection.82}
+\contentsline {subsection}{\numberline {9.1.2}Subsection 2}{25}{subsection.83}
+\contentsline {section}{\numberline {9.2}Main Section 2}{25}{section.84}
+\contentsline {chapter}{\numberline {10}Conclusion}{27}{chapter.85}
+\contentsline {section}{\numberline {10.1}Stuff i don't know where to put yet....)}{27}{section.86}
+\contentsline {chapter}{Bibliography}{29}{appendix*.87}

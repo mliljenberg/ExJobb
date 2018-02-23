@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2018.1.25)  13 FEB 2018 12:11
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2018.1.25)  23 FEB 2018 11:09
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1628,7 +1628,7 @@ Package csquotes Info: ... found 'babel' package.
 LaTeX Warning: Label `Chapter1' multiply defined.
 
 ) (./Chapters/Chapter3.aux) (./Chapters/Chapter4.aux) (./Chapters/Chapter5.aux)
-(./Chapters/Chapter6.aux) (./Chapters/Pilotstudy.aux
+(./Chapters/Pilotstudy.aux) (./Chapters/Chapter6.aux
 
 LaTeX Warning: Label `Chapter6' multiply defined.
 
@@ -2002,26 +2002,27 @@ LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <14.4> not available
 
 ]
 Chapter 2.
-LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <12> not available
-(Font)              Font shape `T1/ppl/b/n' tried instead on input line 23.
 1: section
 [3]
-Underfull \hbox (badness 10000) in paragraph at lines 32--44
+LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <12> not available
+(Font)              Font shape `T1/ppl/b/n' tried instead on input line 27.
+
+Underfull \hbox (badness 10000) in paragraph at lines 36--48
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 32--44
+Underfull \hbox (badness 10000) in paragraph at lines 36--48
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 32--44
+Underfull \hbox (badness 10000) in paragraph at lines 36--48
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 32--44
+Underfull \hbox (badness 10000) in paragraph at lines 36--48
 
  []
 
@@ -2045,7 +2046,7 @@ Chapter 3.
 
 ]
 Chapter 4.
-<Images/QQ.png, id=539, 1437.37pt x 825.0825pt>
+<Images/QQ.png, id=557, 1437.37pt x 825.0825pt>
 File: Images/QQ.png Graphic file (type png)
  <use Images/QQ.png>
 Package pdftex.def Info: Images/QQ.png used on input line 24.
@@ -2054,7 +2055,7 @@ Package pdftex.def Info: Images/QQ.png used on input line 24.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<Images/QQ_menubar.png, id=542, 1038.88126pt x 92.345pt>
+<Images/QQ_menubar.png, id=560, 1038.88126pt x 92.345pt>
 File: Images/QQ_menubar.png Graphic file (type png)
 
 <use Images/QQ_menubar.png>
@@ -2065,13 +2066,13 @@ Package pdftex.def Info: Images/QQ_menubar.png used on input line 35.
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 1: section
-[9] <Images/ebay.png, id=553, 1444.39626pt x 825.0825pt>
+[9] <Images/ebay.png, id=571, 1444.39626pt x 825.0825pt>
 File: Images/ebay.png Graphic file (type png)
  <use Images/ebay.png>
 Package pdftex.def Info: Images/ebay.png used on input line 48.
 (pdftex.def)             Requested size: 284.52756pt x 162.52081pt.
 
-<Images/ebay_menu.png, id=554, 1215.54124pt x 333.245pt>
+<Images/ebay_menu.png, id=572, 1215.54124pt x 333.245pt>
 File: Images/ebay_menu.png Graphic file (type png)
 
 <use Images/ebay_menu.png>
@@ -2082,27 +2083,27 @@ Package pdftex.def Info: Images/ebay_menu.png used on input line 56.
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 [10 <./Images/QQ.png> <./Images/QQ_menubar.png> <./Images/ebay.png>]
-<Images/Taobao.png, id=564, 1444.39626pt x 823.075pt>
+<Images/Taobao.png, id=582, 1444.39626pt x 823.075pt>
 File: Images/Taobao.png Graphic file (type png)
  <use Images/Taobao.png>
 Package pdftex.def Info: Images/Taobao.png used on input line 66.
 (pdftex.def)             Requested size: 284.52756pt x 162.12538pt.
 
-<Images/Taobao_menu.png, id=565, 1295.84125pt x 412.54124pt>
+<Images/Taobao_menu.png, id=583, 1295.84125pt x 412.54124pt>
 File: Images/Taobao_menu.png Graphic file (type png)
 
 <use Images/Taobao_menu.png>
 Package pdftex.def Info: Images/Taobao_menu.png used on input line 74.
 (pdftex.def)             Requested size: 284.52756pt x 90.5831pt.
 
-<Images/ctrip_chinese1.png, id=568, 1419.3025pt x 631.35875pt>
+<Images/ctrip_chinese1.png, id=586, 1419.3025pt x 631.35875pt>
 File: Images/ctrip_chinese1.png Graphic file (type png)
 
 <use Images/ctrip_chinese1.png>
 Package pdftex.def Info: Images/ctrip_chinese1.png used on input line 85.
 (pdftex.def)             Requested size: 284.52756pt x 126.56816pt.
 
-<Images/ctrip_chinese2.png, id=569, 1407.2575pt x 687.56876pt>
+<Images/ctrip_chinese2.png, id=587, 1407.2575pt x 687.56876pt>
 File: Images/ctrip_chinese2.png Graphic file (type png)
 
 <use Images/ctrip_chinese2.png>
@@ -2110,14 +2111,14 @@ Package pdftex.def Info: Images/ctrip_chinese2.png used on input line 86.
 (pdftex.def)             Requested size: 284.52756pt x 139.01158pt.
  [11 <./Images/ebay_menu.png> <./Images/Taobao.png> <./Images/Taobao_menu.png>]
 
-<Images/ctrip_eng1.png, id=577, 1389.19pt x 665.48625pt>
+<Images/ctrip_eng1.png, id=596, 1389.19pt x 665.48625pt>
 File: Images/ctrip_eng1.png Graphic file (type png)
 
 <use Images/ctrip_eng1.png>
 Package pdftex.def Info: Images/ctrip_eng1.png used on input line 94.
 (pdftex.def)             Requested size: 284.52756pt x 136.30371pt.
 
-<Images/ctrip_eng2.png, id=578, 1389.19pt x 688.5725pt>
+<Images/ctrip_eng2.png, id=597, 1389.19pt x 688.5725pt>
 File: Images/ctrip_eng2.png Graphic file (type png)
 
 <use Images/ctrip_eng2.png>
@@ -2133,21 +2134,26 @@ Underfull \hbox (badness 10000) in paragraph at lines 107--110
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 117--127
+Underfull \hbox (badness 10000) in paragraph at lines 117--129
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 117--127
+Underfull \hbox (badness 10000) in paragraph at lines 117--129
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 117--127
+Underfull \hbox (badness 10000) in paragraph at lines 117--129
 
  []
 
-[13 <./Images/ctrip_eng1.png> <./Images/ctrip_eng2.png>]) [14] [15]
+
+Underfull \hbox (badness 10000) in paragraph at lines 117--129
+
+ []
+
+[13 <./Images/ctrip_eng1.png> <./Images/ctrip_eng2.png>] [14]) [15]
 \openout2 = `Chapters/Chapter5.aux'.
 
 
@@ -2163,27 +2169,78 @@ Chapter 5.
 
  (./Chapters/Pilotstudy.tex
 Chapter 6.
-)
+
+Underfull \hbox (badness 10000) in paragraph at lines 16--19
+
+ []
+
 1: section
 [19
 
 
 
-]
+] <Images/pilot_study_bbc_mean_time.png, id=657, 373.395pt x 264.99pt>
+File: Images/pilot_study_bbc_mean_time.png Graphic file (type png)
+
+<use Images/pilot_study_bbc_mean_time.png>
+Package pdftex.def Info: Images/pilot_study_bbc_mean_time.png used on input lin
+e 75.
+(pdftex.def)             Requested size: 170.71652pt x 121.15288pt.
+
+<Images/pilot_study_bbc_failed.png, id=658, 376.40625pt x 264.99pt>
+File: Images/pilot_study_bbc_failed.png Graphic file (type png)
+
+<use Images/pilot_study_bbc_failed.png>
+Package pdftex.def Info: Images/pilot_study_bbc_failed.png used on input line 7
+6.
+(pdftex.def)             Requested size: 170.71652pt x 120.18651pt.
+
+<Images/pilot_study_qq_mean_time.png, id=659, 373.395pt x 264.99pt>
+File: Images/pilot_study_qq_mean_time.png Graphic file (type png)
+
+<use Images/pilot_study_qq_mean_time.png>
+Package pdftex.def Info: Images/pilot_study_qq_mean_time.png used on input line
+ 85.
+(pdftex.def)             Requested size: 170.71652pt x 121.15288pt.
+
+<Images/pilot_study_qq_failed.png, id=660, 383.4325pt x 264.99pt>
+File: Images/pilot_study_qq_failed.png Graphic file (type png)
+
+<use Images/pilot_study_qq_failed.png>
+Package pdftex.def Info: Images/pilot_study_qq_failed.png used on input line 86
+.
+(pdftex.def)             Requested size: 170.71652pt x 117.98285pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 93--98
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 93--98
+
+ []
+
+[20 <./Images/pilot_study_bbc_mean_time.png> <./Images/pilot_study_bbc_failed.p
+ng>] [21 <./Images/pilot_study_qq_mean_time.png> <./Images/pilot_study_qq_faile
+d.png>]) [22]
 \openout2 = `Chapters/Chapter6.aux'.
 
- (./Chapters/Chapter6.tex [20
-
-
-
-]
+ (./Chapters/Chapter6.tex
 Chapter 7.
 )
 1: section
-[21]
+[23
+
+
+
+]
 \openout2 = `Chapters/Chapter7.aux'.
 
- (./Chapters/Chapter7.tex [22
+ (./Chapters/Chapter7.tex [24
 
 
 
@@ -2191,10 +2248,10 @@ Chapter 7.
 Chapter 8.
 )
 1: section
-[23]
+[25]
 \openout2 = `Chapters/Chapter8.aux'.
 
- (./Chapters/Chapter8.tex [24
+ (./Chapters/Chapter8.tex [26
 
 
 
@@ -2202,10 +2259,10 @@ Chapter 8.
 Chapter 9.
 )
 1: section
-[25]
+[27]
 \openout2 = `Chapters/Chapter9.aux'.
 
- (./Chapters/Chapter9.tex [26
+ (./Chapters/Chapter9.tex [28
 
 
 
@@ -2213,7 +2270,7 @@ Chapter 9.
 Chapter 10.
 )
 1: section
-[27] [28
+[29] [30
 
 
 ]
@@ -2225,7 +2282,7 @@ File: t1cmtt.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 251.
 
 1: section
-[29]
+[31]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 251.
  (./main.aux (./Chapters/Chapter1.aux) (./Chapters/Chapter2.aux)
 (./Chapters/Chapter3.aux) (./Chapters/Chapter4.aux) (./Chapters/Chapter5.aux)
@@ -2233,15 +2290,9 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 251.
 (./Chapters/Chapter8.aux) (./Chapters/Chapter9.aux))
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 251.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 251.
+Package rerunfilecheck Info: File `main.out' has not changed.
+(rerunfilecheck)             Checksum: 7697C96547D46869B5894D187D5D6052;10505.
 
-
-Package rerunfilecheck Warning: File `main.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `main.out':
-(rerunfilecheck)             Before: A6C0EAADA9917FA63541E3F745838935;10105
-(rerunfilecheck)             After:  5385F605BD15F4B7B0DA2AC47877455C;10105.
 
 LaTeX Warning: There were multiply-defined labels.
 
@@ -2250,10 +2301,10 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 33159 strings out of 492995
- 667721 string characters out of 6132704
- 876150 words of memory out of 5000000
- 36170 multiletter control sequences out of 15000+600000
+ 33215 strings out of 492995
+ 668858 string characters out of 6132704
+ 877357 words of memory out of 5000000
+ 36192 multiletter control sequences out of 15000+600000
  48531 words of font info for 81 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  55i,20n,81p,10377b,2300s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -2265,10 +2316,10 @@ e/2017/texmf-dist/fonts/type1/urw/palatino/uplb8a.pfb></usr/local/texlive/2017/
 texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb></usr/local/texlive/2017/texmf-d
 ist/fonts/type1/urw/palatino/uplr8a.pfb></usr/local/texlive/2017/texmf-dist/fon
 ts/type1/urw/palatino/uplri8a.pfb>
-Output written on main.pdf (45 pages, 17001669 bytes).
+Output written on main.pdf (47 pages, 17034055 bytes).
 PDF statistics:
- 747 PDF objects out of 1000 (max. 8388607)
- 667 compressed objects within 7 object streams
- 145 named destinations out of 1000 (max. 500000)
- 659 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 812 PDF objects out of 1000 (max. 8388607)
+ 721 compressed objects within 8 object streams
+ 175 named destinations out of 1000 (max. 500000)
+ 695 words of extra memory for PDF output out of 10000 (max. 10000000)
 

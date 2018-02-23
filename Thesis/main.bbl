@@ -239,6 +239,29 @@
     \field{year}{2002}
   \endentry
 
+  \entry{f-shape_today}{book}{}
+    \name{author}{1}{}{%
+      {{hash=PK}{%
+         family={Pernice},
+         familyi={P\bibinitperiod},
+         given={Kara},
+         giveni={K\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Nielsen Norman Group}%
+    }
+    \strng{namehash}{PK1}
+    \strng{fullhash}{PK1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{P}
+    \field{sortinithash}{P}
+    \field{title}{F-Shaped Pattern of Reading on the Web: Misunderstood, But
+  Still Relevant}
+    \field{year}{2017}
+  \endentry
+
   \entry{pernice2014people}{book}{}
     \name{author}{3}{}{%
       {{hash=PK}{%

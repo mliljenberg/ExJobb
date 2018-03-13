@@ -14,6 +14,14 @@ Cultural differences affect more than just how we behave it also can affect how 
 \section{User Centred design}
 \section{Usability}
 \section{User Experience}
+User Experience (UX) is a expression popularised by Donald Norman and Jakob Nielsen in "The design of everyday things" (länka på rätt sätt)(Källa!). Norman and Nielsen define User Experience the following way “True user experience goes far beyond giving customers what they say they want, or providing checklist features. In order to achieve high-quality user experience in a company’s offerings there must be a seamless merging of the services of multiple disciplines, including engineering, marketing, graphical and industrial design, and interface design” (Norman and Nielsen, 2016). (latex quota på rätt sätt). 
+\\\\
+The term User experience is a widly used term and can be associated with several diffrent meanings another attempt to define the word has been done by The International Organization for Standardization. They defined UX in ISO 9241-210 as “A person's perceptions and responses that result from the use and/or anticipated use of a product, system or service.” Moreover, the ISO standard states that “UX includes allusers' emotions, beliefs, preferences, perceptions, physical and psychologicalresponses, behaviors and accomplishments that occur before, during and after use”. The standard also states that “UX is a consequence offunctionality, system performance, interactive behavior and assistive capabilities of the interactive system, the user's internal and physical state resulting from prior brand image, presentation,experiences, attitudes, skills and personality, and the context of use” (dubbel kolla att detta kanske är för kopierat??)
+
+
+
+
+
 \section{Elements of Web Design}
 \section{F-shaped Pattern}
 The F-shaped pattern regards to a finding made in the xxx study \cite{pernice2014people} (find correct article for f-shaped pattern and cite it here as well). This pattern is named the "F-shaped pattern" since the study found that users often scan through the page starting with a horizontal movement, usually across the upper part of the content area. Then the users read across in a second horizontal movement further down on the page that typically covers a shorter area. Lastly users scan the content’s left side in a vertical movement. When measuring the users eye gazing as a heat map this creates a pattern that resembles a F. Quite a few web pages either knowingly or unknowingly have designed their websites in regards to this pattern. The F-shaped pattern is not a absolute law and there exists several other scanning patterns but the F-shaped pattern is still the most prevalent in western cultures. \cite{f-shape_today} If a website design a page without knowledge about this pattern they run the risk of putting important information in places where their users might miss it. The F-shaped pattern is mostly prevalent in western cultures where the studies have been conducted.
@@ -48,8 +56,38 @@ Learnability can be seen as to how high degree does the user become more efficie
 \subsection{Self-Reported Metrics}
 Self-Reported Metrics ask the user what he thought of the product. A way to do this is by using a form. A common method for doing this is by using System Usability Scale also called SUS \cite{tullis_albert_2011} \cite{brooke1996sus}. Sus is a method created by John Brooke. SUS is a form containing ten questions with a scale from 1-5 where 5 is "Strongly agree" and 1 is "Strongly disagree". See (appedix x) for a example of the form. SUS is a metric tool that have been used and proven over 22 years to be a robust and simple tool for measuring usability \cite{brooke1996sus}.  (SEE APENDIX for SUS ecample )
 \section{Usability Testing}
+
 \section{Colour and Culture}
 Different cultures have always had a focus on different colours, this has also have a effect to what degree a user trust and like a website. Not all people prefer the same colour scheme and study made by (XXXX) \cite{Color} shows that this colour preference can also be cultural. The study showed that the colour schema a website use affect the trust and how well liked a website can be. It also showed that people from different cultures have a preferences for colours associated with that culture. This is something that has to be taken into account when designing a website for an certain culture this since the correct colour schema can affect how well the users will like and interact with the website. Using colours that the users from a culture feel more comfortable with can be very important to enhance the users experience when using the site.
 \section{Trends}
+Trends are a thing that exists in all things, a trend simply mean that something is popular in the moment. This does not necessary mean that the trend is the best or most efficient way to do something, it's quite usually the opposite. Comparing design trends to usability in this thesis simply mean that we will try to examine if there is any actual underlying data that supports the trend from a usability perspective. This can have two outcomes either the trend has grown forth because it more closely cater to how its users use the respective products effectively or the trend is a bi-product from how things have previously been done. One example of this could be that we load more information than necessary on to a page because we have always previously done so. The reason we started doing this was because of slow internet speed which lead to large loading times when clicking through a page. So even if the internet speed is now very quick and we don't have to load all information to a page we still do so since we and our users have become used to this old pattern.
+
 \section{Culture and Usability}
+
+\section{Great Firewall of China}
+The Great Firewall of China (GFC) is a combination of laws and technologies by the Chinese government that allows them to regulate the internet domestically. Example of services blocked by GFC are Google, Facebook, Youtube and many others. GFC also case traffic from about to be significant slower than applications hosted in China. Hosting a application on a server in China requires a specific IPC license from the Chinese government and getting one is a very long and slow process. The sort of algorithms that are used by GFC are largely unknown and can be hard to circumvent.
+
+\section{AWS - Amazon Web Services}
+AWS (Amazon Web Services) is the largest provider of web-hosting in the world. Amazon allows for the users to easily host their application globally and provide several features to help users with this task.
+\subsection{EC2}
+EC2 (Elastic Cloud Compute) is a basic web server service aws offer. EC2 allows you to set up a virtual server with different amounts of CPU, Memory etc.. These servers can be set up on several aws locations across the world. This server can be customised to run a operating system of your choice, the most common being Linux and Windows.
+\subsection{Auto scaling}
+Auto scaling is a feature provided by aws that automatically scales up the server in case of increased traffic. This mean if a application has a large of amount of traffic on a server the auto scaling functionality create an extra server can handle user requests. Auto scaling also allows for automatic scale down in case of low traffic. 
+\subsection{Load balancing}
+Load balancing is a feature from aws that automaticaly balances the load of the EC2 instances. If a user have 3 EC2 instances the load balancing will make sure that the workload is shared by all EC2 instances. This helps to prevent one instance from overloading.
+\subsection{RDS}
+RDS (Relational database service) is a database service provided by aws. RDS lets you set up a database of your choice and host it on aws servers. You can set this database up on several locations all across the world and configure it to suit your application.
+\subsection{S3}
+S3 is a aws feature that allows for object storage in the cloud. S3 allows the user to store anything he seems fit this can be everything from files, Images, code repositories etc. Images that are used on websites can stored here and then downloaded to the website when the user opens it, this is a common way to handle images in web sites and applications.
+\subsection{Elastic Beanstalk}
+Elastic Beanstalk also called EB is a feature provided by aws that automatically sets up a instance complete environment with auto scaling, load balancing, Relational database and EC2 instances.
+\section{React-Redux}
+React is a front-end JavaScript library developed by Facebook. React is based on the user building and reusing components. This allows for very structured and highly scalable code.
+\\\\
+Handling data-flow in a react application can be very tricky, this is where redux comes in. Redux is a JavaScript library that allows for structuring and handling a web applications data flow in a structured way . React and Redux are so commonly used together that libraries combining them have been made. React-Redux is the most popular use of these libraries and they work very well together to allow scalable and reusable code. 
+
+\section{MySql database}
+MySql is a version of the database quiery language SQL. SQL has been used since 1981 and is used to set-up, save and get information from a database. MySql is free to use and has a public license.
+\section{API}
+Api (application programming interface) is a interface between the front-end and server. A api allows the application to communicate with functions and servers outside the internal environment. Examples of these are databases, other servers and other api's. A api allows for clearer communication between different actors on the web. 
 

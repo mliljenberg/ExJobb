@@ -1,21 +1,40 @@
 % Chapter Template
 
-\chapter{Phase 4 - Building the Interfaces} % Main chapter title
+\chapter{Phase 3 - Building the Interfaces} % Main chapter title
 
 \label{Chapter6} % Change X to a consecutive number; for referencing this chapter elsewhere, use \ref{ChapterX}
 
 %----------------------------------------------------------------------------------------
 %	SECTION 1
 %----------------------------------------------------------------------------------------
+The goal for phase 3 is to develop the actual test, beta-test, and deploy it can be accessed and used globally by people all over the world. To be able to do this several diffrent technologies had to be used
+\section{Method}
+To be able to perform the test on users all over the world without actually having to be there a web based test had to be constructed. The test was made using several different technologies and hosted on aws. 
 
-\section{Main Section 1}
+Several things had to be taken into consideration such as: slower network in china, possibility of web connection getting interrupted, measuring correct behaviours, making sure a completable devices was used for the test (mobile device would not at all test the same thing).
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam ultricies lacinia euismod. Nam tempus risus in dolor rhoncus in interdum enim tincidunt. Donec vel nunc neque. In condimentum ullamcorper quam non consequat. Fusce sagittis tempor feugiat. Fusce magna erat, molestie eu convallis ut, tempus sed arcu. Quisque molestie, ante a tincidunt ullamcorper, sapien enim dignissim lacus, in semper nibh erat lobortis purus. Integer dapibus ligula ac risus convallis pellentesque.
 
-%-----------------------------------
-%	SUBSECTION 1
-%-----------------------------------
-\subsection{Subsection 1}
+\subsection{Front-End}
+based on react boilerplate. Main technologies include(react, redux, sagas, javascript)
+
+Started building the frontend skeleton
+
+then built redux saga
+
+then added language
+
+
+\subsection{API}
+
+\subsection{Hosting AWS}
+To host this app on AWS we used the feature called "Elastic Beanstalk" also called eb. Eb allowed us to easily launch a application that automatically set up a EC2 instance, auto scaling, load-balancing, RDS. We selected to set up the service in Seoul. This to decrease the loading time for China as much as possible. Since Seoul have a very good network connection to the rest of the world as well the loading time is not to much decreased by that in Europe or the US.
+
+\subsection{Database}
+
+\subsection{How the interface works}
+pics lots of pics!
+
+\section{Results}
 
 Nunc posuere quam at lectus tristique eu ultrices augue venenatis. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Aliquam erat volutpat. Vivamus sodales tortor eget quam adipiscing in vulputate ante ullamcorper. Sed eros ante, lacinia et sollicitudin et, aliquam sit amet augue. In hac habitasse platea dictumst.
 
@@ -23,13 +42,10 @@ Nunc posuere quam at lectus tristique eu ultrices augue venenatis. Vestibulum an
 %	SUBSECTION 2
 %-----------------------------------
 
-\subsection{Subsection 2}
-Morbi rutrum odio eget arcu adipiscing sodales. Aenean et purus a est pulvinar pellentesque. Cras in elit neque, quis varius elit. Phasellus fringilla, nibh eu tempus venenatis, dolor elit posuere quam, quis adipiscing urna leo nec orci. Sed nec nulla auctor odio aliquet consequat. Ut nec nulla in ante ullamcorper aliquam at sed dolor. Phasellus fermentum magna in augue gravida cursus. Cras sed pretium lorem. Pellentesque eget ornare odio. Proin accumsan, massa viverra cursus pharetra, ipsum nisi lobortis velit, a malesuada dolor lorem eu neque.
+\section{Discussion}
 
 %----------------------------------------------------------------------------------------
 %	SECTION 2
 %----------------------------------------------------------------------------------------
 
-\section{Main Section 2}
-
-Sed ullamcorper quam eu nisl interdum at interdum enim egestas. Aliquam placerat justo sed lectus lobortis ut porta nisl porttitor. Vestibulum mi dolor, lacinia molestie gravida at, tempus vitae ligula. Donec eget quam sapien, in viverra eros. Donec pellentesque justo a massa fringilla non vestibulum metus vestibulum. Vestibulum in orci quis felis tempor lacinia. Vivamus ornare ultrices facilisis. Ut hendrerit volutpat vulputate. Morbi condimentum venenatis augue, id porta ipsum vulputate in. Curabitur luctus tempus justo. Vestibulum risus lectus, adipiscing nec condimentum quis, condimentum nec nisl. Aliquam dictum sagittis velit sed iaculis. Morbi tristique augue sit amet nulla pulvinar id facilisis ligula mollis. Nam elit libero, tincidunt ut aliquam at, molestie in quam. Aenean rhoncus vehicula hendrerit.
+\section{Conclusion}

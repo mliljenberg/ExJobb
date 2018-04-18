@@ -16,82 +16,87 @@
 \contentsline {section}{\numberline {2.2}User Centred design}{3}{section.16}
 \contentsline {section}{\numberline {2.3}Usability}{3}{section.17}
 \contentsline {section}{\numberline {2.4}User Experience}{3}{section.18}
-\contentsline {section}{\numberline {2.5}Elements of Web Design}{3}{section.19}
-\contentsline {section}{\numberline {2.6}F-shaped Pattern}{3}{section.20}
+\contentsline {section}{\numberline {2.5}Elements of Web Design}{4}{section.19}
+\contentsline {section}{\numberline {2.6}F-shaped Pattern}{4}{section.20}
 \contentsline {section}{\numberline {2.7}Perception in asia (f-shaped pattern.)}{4}{section.21}
-\contentsline {section}{\numberline {2.8}User Testing}{4}{section.22}
-\contentsline {section}{\numberline {2.9}Natural Mapping}{4}{section.23}
+\contentsline {section}{\numberline {2.8}Natural Mapping}{4}{section.22}
+\contentsline {section}{\numberline {2.9}User Testing}{4}{section.23}
 \contentsline {section}{\numberline {2.10}Usability Metrics}{4}{section.24}
 \contentsline {subsection}{\numberline {2.10.1}Performance Metrics}{4}{subsection.25}
 \contentsline {subsection}{\numberline {2.10.2}Self-Reported Metrics}{5}{subsection.26}
 \contentsline {section}{\numberline {2.11}Usability Testing}{5}{section.27}
 \contentsline {section}{\numberline {2.12}Colour and Culture}{5}{section.28}
-\contentsline {section}{\numberline {2.13}Trends}{5}{section.29}
+\contentsline {section}{\numberline {2.13}Trends}{6}{section.29}
 \contentsline {section}{\numberline {2.14}Culture and Usability}{6}{section.30}
 \contentsline {section}{\numberline {2.15}Great Firewall of China}{6}{section.31}
 \contentsline {section}{\numberline {2.16}AWS - Amazon Web Services}{6}{section.32}
-\contentsline {subsection}{\numberline {2.16.1}EC2}{6}{subsection.33}
-\contentsline {subsection}{\numberline {2.16.2}Auto scaling}{6}{subsection.34}
-\contentsline {subsection}{\numberline {2.16.3}Load balancing}{6}{subsection.35}
+\contentsline {subsection}{\numberline {2.16.1}EC2}{7}{subsection.33}
+\contentsline {subsection}{\numberline {2.16.2}Auto scaling}{7}{subsection.34}
+\contentsline {subsection}{\numberline {2.16.3}Load balancing}{7}{subsection.35}
 \contentsline {subsection}{\numberline {2.16.4}RDS}{7}{subsection.36}
 \contentsline {subsection}{\numberline {2.16.5}S3}{7}{subsection.37}
 \contentsline {subsection}{\numberline {2.16.6}Elastic Beanstalk}{7}{subsection.38}
 \contentsline {section}{\numberline {2.17}React-Redux}{7}{section.39}
-\contentsline {section}{\numberline {2.18}MySql database}{7}{section.40}
-\contentsline {section}{\numberline {2.19}API}{7}{section.41}
-\contentsline {chapter}{\numberline {3}Working process}{9}{chapter.42}
-\contentsline {section}{\numberline {3.1}Main Section 1}{9}{section.43}
-\contentsline {subsection}{\numberline {3.1.1}Subsection 1}{9}{subsection.44}
-\contentsline {subsection}{\numberline {3.1.2}Subsection 2}{9}{subsection.45}
-\contentsline {section}{\numberline {3.2}Main Section 2}{9}{section.46}
-\contentsline {chapter}{\numberline {4}Phase 1 - Investigation}{11}{chapter.47}
-\contentsline {section}{\numberline {4.1}Method}{11}{section.48}
-\contentsline {section}{\numberline {4.2}Results}{11}{section.49}
-\contentsline {section}{\numberline {4.3}Chinese vs Western websites comparison}{11}{section.50}
-\contentsline {subsection}{\numberline {4.3.1}QQ}{11}{subsection.51}
-\contentsline {subsection}{\numberline {4.3.2}BBC}{12}{subsection.54}
-\contentsline {subsection}{\numberline {4.3.3}Taobao and Ebay}{12}{subsection.55}
-\contentsline {subsection}{\numberline {4.3.4}Analyses of Ctrip}{13}{subsection.60}
-\contentsline {section}{\numberline {4.4}Conclusion Phase 1}{15}{section.63}
-\contentsline {subsection}{\numberline {4.4.1}Common Chinese design that differs from western design}{15}{subsection.64}
-\contentsline {subsection}{\numberline {4.4.2}Limitations}{16}{subsection.65}
-\contentsline {section}{\numberline {4.5}L\IeC {\"a}gg till}{17}{section.66}
-\contentsline {chapter}{\numberline {5}Phase 2 - Prototyping}{19}{chapter.67}
-\contentsline {section}{\numberline {5.1}Method}{19}{section.68}
-\contentsline {section}{\numberline {5.2}Results}{19}{section.69}
-\contentsline {subsection}{\numberline {5.2.1}Low-fi Prototype}{19}{subsection.70}
-\contentsline {subsection}{\numberline {5.2.2}High-fi Prototype}{19}{subsection.71}
-\contentsline {subsubsection}{News Site}{19}{section*.72}
-\contentsline {section}{\numberline {5.3}Discussion Phase 2}{20}{section.73}
-\contentsline {section}{\numberline {5.4}Conclusion}{20}{section.74}
-\contentsline {chapter}{\numberline {6}Pilot study}{21}{chapter.75}
-\contentsline {section}{\numberline {6.1}Method}{21}{section.76}
-\contentsline {subsection}{\numberline {6.1.1}Pilot study}{21}{subsection.77}
-\contentsline {section}{\numberline {6.2}Results}{21}{section.78}
-\contentsline {section}{\numberline {6.3}Discussion}{22}{section.104}
-\contentsline {section}{\numberline {6.4}Conclusion}{23}{section.105}
-\contentsline {chapter}{\numberline {7}Phase 3 - Building the Interfaces}{25}{chapter.106}
-\contentsline {section}{\numberline {7.1}Method}{25}{section.107}
-\contentsline {subsection}{\numberline {7.1.1}Front-End}{25}{subsection.108}
-\contentsline {subsection}{\numberline {7.1.2}API}{25}{subsection.109}
-\contentsline {subsection}{\numberline {7.1.3}Hosting AWS}{25}{subsection.110}
-\contentsline {subsection}{\numberline {7.1.4}Database}{25}{subsection.111}
-\contentsline {subsection}{\numberline {7.1.5}How the interface works}{25}{subsection.112}
-\contentsline {section}{\numberline {7.2}Results}{26}{section.113}
-\contentsline {section}{\numberline {7.3}Discussion}{26}{section.114}
-\contentsline {section}{\numberline {7.4}Conclusion}{26}{section.115}
-\contentsline {chapter}{\numberline {8}Phase 5 - Analyzing Data}{27}{chapter.116}
-\contentsline {section}{\numberline {8.1}Main Section 1}{27}{section.117}
-\contentsline {subsection}{\numberline {8.1.1}Subsection 1}{27}{subsection.118}
-\contentsline {subsection}{\numberline {8.1.2}Subsection 2}{27}{subsection.119}
-\contentsline {section}{\numberline {8.2}Main Section 2}{27}{section.120}
-\contentsline {chapter}{\numberline {9}Discussion}{29}{chapter.121}
-\contentsline {section}{\numberline {9.1}Main Section 1}{29}{section.122}
-\contentsline {subsection}{\numberline {9.1.1}Subsection 1}{29}{subsection.123}
-\contentsline {subsection}{\numberline {9.1.2}Subsection 2}{29}{subsection.124}
-\contentsline {section}{\numberline {9.2}Main Section 2}{29}{section.125}
-\contentsline {chapter}{\numberline {10}Conclusion}{31}{chapter.126}
-\contentsline {section}{\numberline {10.1}Stuff i don't know where to put yet....)}{31}{section.127}
-\contentsline {subsection}{\numberline {10.1.1}Emerging trends in chine}{31}{subsection.128}
-\contentsline {subsection}{\numberline {10.1.2}Reason for differences}{31}{subsection.129}
-\contentsline {chapter}{Bibliography}{33}{appendix*.130}
+\contentsline {subsection}{\numberline {2.17.1}Redux-saga}{8}{subsection.40}
+\contentsline {section}{\numberline {2.18}Async}{8}{section.41}
+\contentsline {section}{\numberline {2.19}MySql database}{8}{section.42}
+\contentsline {section}{\numberline {2.20}API}{8}{section.43}
+\contentsline {chapter}{\numberline {3}Working process}{9}{chapter.44}
+\contentsline {section}{\numberline {3.1}Main Section 1}{9}{section.45}
+\contentsline {subsection}{\numberline {3.1.1}Subsection 1}{9}{subsection.46}
+\contentsline {subsection}{\numberline {3.1.2}Subsection 2}{9}{subsection.47}
+\contentsline {section}{\numberline {3.2}Main Section 2}{9}{section.48}
+\contentsline {chapter}{\numberline {4}Phase 1 - Investigation}{11}{chapter.49}
+\contentsline {section}{\numberline {4.1}Method}{11}{section.50}
+\contentsline {section}{\numberline {4.2}Results}{11}{section.51}
+\contentsline {section}{\numberline {4.3}Chinese vs Western websites comparison}{11}{section.52}
+\contentsline {subsection}{\numberline {4.3.1}QQ}{11}{subsection.53}
+\contentsline {subsection}{\numberline {4.3.2}BBC}{12}{subsection.56}
+\contentsline {subsection}{\numberline {4.3.3}Taobao and Ebay}{12}{subsection.57}
+\contentsline {subsection}{\numberline {4.3.4}Analyses of Ctrip}{13}{subsection.62}
+\contentsline {section}{\numberline {4.4}Conclusion Phase 1}{15}{section.65}
+\contentsline {subsection}{\numberline {4.4.1}Common Chinese design that differs from western design}{15}{subsection.66}
+\contentsline {subsection}{\numberline {4.4.2}Limitations}{16}{subsection.67}
+\contentsline {section}{\numberline {4.5}L\IeC {\"a}gg till}{17}{section.68}
+\contentsline {chapter}{\numberline {5}Phase 2 - Prototyping}{19}{chapter.69}
+\contentsline {section}{\numberline {5.1}Method}{19}{section.70}
+\contentsline {section}{\numberline {5.2}Results}{19}{section.71}
+\contentsline {subsection}{\numberline {5.2.1}Low-fi Prototype}{19}{subsection.72}
+\contentsline {subsection}{\numberline {5.2.2}High-fi Prototype}{19}{subsection.73}
+\contentsline {subsubsection}{News Site}{19}{section*.74}
+\contentsline {section}{\numberline {5.3}Discussion Phase 2}{20}{section.75}
+\contentsline {section}{\numberline {5.4}Conclusion}{20}{section.76}
+\contentsline {chapter}{\numberline {6}Pilot study}{21}{chapter.77}
+\contentsline {section}{\numberline {6.1}Method}{21}{section.78}
+\contentsline {subsection}{\numberline {6.1.1}Pilot study}{21}{subsection.79}
+\contentsline {section}{\numberline {6.2}Results}{21}{section.80}
+\contentsline {section}{\numberline {6.3}Discussion}{22}{section.106}
+\contentsline {section}{\numberline {6.4}Conclusion}{23}{section.107}
+\contentsline {chapter}{\numberline {7}Phase 3 - Building the Interfaces}{25}{chapter.108}
+\contentsline {section}{\numberline {7.1}Method}{25}{section.109}
+\contentsline {subsection}{\numberline {7.1.1}Front-End}{25}{subsection.110}
+\contentsline {subsubsection}{Homepage}{26}{section*.111}
+\contentsline {subsubsection}{BBC and QQ}{27}{section*.114}
+\contentsline {subsubsection}{SUS}{27}{section*.118}
+\contentsline {subsection}{\numberline {7.1.2}Database}{27}{subsection.121}
+\contentsline {subsection}{\numberline {7.1.3}API}{27}{subsection.122}
+\contentsline {subsection}{\numberline {7.1.4}Hosting AWS}{27}{subsection.123}
+\contentsline {subsection}{\numberline {7.1.5}Beta-tests}{28}{subsection.124}
+\contentsline {section}{\numberline {7.2}Results}{28}{section.125}
+\contentsline {section}{\numberline {7.3}Discussion}{28}{section.126}
+\contentsline {section}{\numberline {7.4}Conclusion}{28}{section.127}
+\contentsline {chapter}{\numberline {8}Phase 5 - Analyzing Data}{31}{chapter.128}
+\contentsline {section}{\numberline {8.1}Main Section 1}{31}{section.129}
+\contentsline {subsection}{\numberline {8.1.1}Subsection 1}{31}{subsection.130}
+\contentsline {subsection}{\numberline {8.1.2}Subsection 2}{31}{subsection.131}
+\contentsline {section}{\numberline {8.2}Main Section 2}{31}{section.132}
+\contentsline {chapter}{\numberline {9}Discussion}{33}{chapter.133}
+\contentsline {section}{\numberline {9.1}Main Section 1}{33}{section.134}
+\contentsline {subsection}{\numberline {9.1.1}Subsection 1}{33}{subsection.135}
+\contentsline {subsection}{\numberline {9.1.2}Subsection 2}{33}{subsection.136}
+\contentsline {section}{\numberline {9.2}Main Section 2}{33}{section.137}
+\contentsline {chapter}{\numberline {10}Conclusion}{35}{chapter.138}
+\contentsline {section}{\numberline {10.1}Stuff i don't know where to put yet....)}{35}{section.139}
+\contentsline {subsection}{\numberline {10.1.1}Emerging trends in chine}{35}{subsection.140}
+\contentsline {subsection}{\numberline {10.1.2}Reason for differences}{35}{subsection.141}
+\contentsline {chapter}{Bibliography}{37}{appendix*.142}

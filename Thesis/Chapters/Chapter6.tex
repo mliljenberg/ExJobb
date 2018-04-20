@@ -47,7 +47,7 @@ All the news in this test has been translated so they have both the English and 
 	\includegraphics[width=70mm]{Images/view_bbc.png}
 	\includegraphics[width=70mm]{Images/view_qq.png}
 	\decoRule
-	\caption[Users View]{A example of what it might look for a user when testing bbc and qq}
+	\caption[Users View]{A example of what it might look for a user when testing bbc and qq inspired websites.}
 	\label{fig:user_view}
 \end{figure}
 \begin{figure}[h]
@@ -108,26 +108,40 @@ The Sus table simply contains all the users answers to the Sus questions. The Qu
 	\label{fig:db_schema}
 \end{figure}
 
-\subsection{API}
-A express API was set up to handle communication between the front-end and database. The Api takes the information that is sent from the users front-end code and transform it into a 
+\subsection{Api}
+A express Api was set up to handle communication between the front-end and database. The Api takes the information that is sent from the users front-end code and transform it into a format that works for the sql database. The Api then quires the database and insert the new data into the database tables.
 
 \subsection{Hosting AWS}
-To host this app on AWS we used the feature called "Elastic Beanstalk" also called eb. Eb allowed us to easily launch a application that automatically set up a EC2 instance, auto scaling, load-balancing, RDS. We selected to set up the service in Seoul. This to decrease the loading time for China as much as possible. Since Seoul have a very good network connection to the rest of the world as well the loading time from Europe and the US is still quite quick.
+To host this app on AWS we used the feature called "Elastic Beanstalk" also called eb. Eb allowed us to easily launch a application that automatically set up a EC2 instance, auto scaling, load-balancing, RDS. The services was set up in Seoul. This to decrease the loading time for China as much as possible. Since Seoul also have very good network connections to the rest of the world this does not increase the loading time in Europe and the US that much. A lot of time had to be spent changing parts of the code so it would run on AWS servers.
 
 \subsection{Beta-tests}
+Once a working version of the test was created. A beta test was made to find possible bugs in code and improve user-experience in terms of font-size and design of the testing parts.
+The beta-tests where made in the form of letting users try to finish the test while It was supervised. Notes where taken about possible misunderstandings, bugs and improvements that could be made to the test. Some examples of notes that was taken during the beta tests can be seen below. 
+
+\begin{enumerate}
+	\item Make selected bigger so the user can easier see what they have done.
+	\item Should we log scrolling?
+	\item Some correct question gets logged as incorrect in database in-spite of being correct.
+	\item Waiting for sus site is very slow. Is it waiting for the database?
+	\item Left top-side of qq site is too small, because of commercial?
+	\item Wrong spelling in some news.
+	\item Skip task not working.
+	\item Some correct question gets loged as incorrect in database in-spite of being correct.
+	\item Change so the size of the page is constant no matter the screen size. (Looked very bad on a big screen right now.)
+	\item Start time not working correctly on some questions.
+	\item Remove video from questions, does not give any relevant information.
+\end{enumerate}
+
+The beta was tested on about ten people where six did the English version of the test and four the Chinese version. After about eight tests almost no new information about usability problems and bugs where found so it was concluded to finish the beta testing and launch the test.
 
 \subsection{Launch}
+The launch of the test when fairly quickly with AWS. During the launch the performance of the site was monitored closely and we could thereby see that loading times increased when several people used the site at the same time and not all results where logged in the database. It was quickly concluded this was beacuse a problem with the database connection from the api and within the matter of minutes this bug was fixed and the site was updated. It can be estimated that about 4-5 test results where lost due to this mistake.
+
 \section{Results}
 Hur många svar vi fick... Etc...
 
-%-----------------------------------
-%	SUBSECTION 2
-%-----------------------------------
-
 \section{Discussion}
 Vad som behövde ändras efter beta, samt panik updatering på mysql databasen, hur vissa trots text försökte göra på mobil
-%----------------------------------------------------------------------------------------
-%	SECTION 2
-%----------------------------------------------------------------------------------------
+
 
 \section{Conclusion}

@@ -138,10 +138,32 @@ The beta was tested on about ten people where six did the English version of the
 The launch of the test when fairly quickly with AWS. During the launch the performance of the site was monitored closely and we could thereby see that loading times increased when several people used the site at the same time and not all results where logged in the database. It was quickly concluded this was beacuse a problem with the database connection from the api and within the matter of minutes this bug was fixed and the site was updated. It can be estimated that about 4-5 test results where lost due to this mistake.
 
 \section{Results}
-Hur många svar vi fick... Etc...
+We received quite a few responses from both English and Chinese users. In total we revived about 99 replies from people who did the test. 40 of these where from Chinese users and 59 from English speaking users. Of these users 61 where male and 38 female.  
+ 
+ The majority of the test subjects are students studying at university. Most of the english speaking students are from Lunds University and the majority of the Chinese speakers are from xxxxx university in China. The rest of the test subjects are a mix of people from the Swedish and Chinese Tetra pak offices.
+ The age of the test subjects are quite similar as can be seen in the graph below (/ref here for graph!).
+ 
+(Bild från age grafen)
+ 
 
 \section{Discussion}
-Vad som behövde ändras efter beta, samt panik updatering på mysql databasen, hur vissa trots text försökte göra på mobil
+The programing is the largest and most time consuming part of this thesis and there were several requirents of the code for the tests results to be usefull. (OBS BORDE DHA MED ALLA REQUIREMTENTS NÅGONSTANTS. The requirements from the code can be seen in (REF TO REQ HERE). On top of previusly decided requirements the following where also added when it was realised that they where needed: 
+ \begin{enumerate}
+ 	\item Users are not allowed to use ctrl-search
+ 	\item The test that users receive should be controlled, this so we receive equal amount of tests for both sites.
+ 	\item 
+ \end{enumerate}
+
+The results are from the raw data. This means that the data will have to be cleaned before able to be used. Some examples of what have to be removed are: 
+
+\begin{enumerate}
+	\item Tests done on Phone
+	\item Questions where the user has left the test.
+	\item Tests where the user only skipped through all the questions
+\end{enumerate}
+
+
 
 
 \section{Conclusion}
+Vad som behövde ändras efter beta, samt panik updatering på mysql databasen, hur vissa trots text försökte göra på mobil

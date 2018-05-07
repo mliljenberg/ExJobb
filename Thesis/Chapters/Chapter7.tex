@@ -1,35 +1,48 @@
 % Chapter Template
 
-\chapter{Phase 5 - Analyzing Data} % Main chapter title
+\chapter{Phase 4 - Analyzing Data} % Main chapter title
 
 \label{Chapter7} % Change X to a consecutive number; for referencing this chapter elsewhere, use \ref{ChapterX}
 
 %----------------------------------------------------------------------------------------
 %	SECTION 1
 %----------------------------------------------------------------------------------------
+The goal with this phase is to use the language python combined with mysql quires to get the data from the database. Clean the data and then analyse the results and test it for statistical significance.
 
 \section{Method}
+The main technologies used for this phase was Python using several different libraries and mysql to querie the database in Seul, South Korea.
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam ultricies lacinia euismod. Nam tempus risus in dolor rhoncus in interdum enim tincidunt. Donec vel nunc neque. In condimentum ullamcorper quam non consequat. Fusce sagittis tempor feugiat. Fusce magna erat, molestie eu convallis ut, tempus sed arcu. Quisque molestie, ante a tincidunt ullamcorper, sapien enim dignissim lacus, in semper nibh erat lobortis purus. Integer dapibus ligula ac risus convallis pellentesque.
+data gathering process:
+To gather the data from the MySQL database several queries were made with conditions that specified what specific data to be gathered. This data then loaded into a data frame in python. Eight different data frames were created. Four containing information about the user's actions on each question these were the following: English speaking BBC users,  Chinese BBC users,  English QQ and Chinese QQ users. Four other data frames with the same constraints were created but instead of containing the user's responses and times it took to answer the different questions, these contained the users questionnaire answers.
+\\\\
+Once the data was gathered is was scanned for irregularities these were often either removed or replaced by a mean value as is commonly done in machine learning and other data mining/data analysis fields. The most obvious errors were the ones where the data had the wrong shape because of a bug. These were simply fixed or removed one example of this is one user who had twice the amount of answers to the questions with the exact same information. In that case, one of each row containing a duplicate was simply removed. Another type of faulty data where the user's complete input was removed was the cases where a user had skipped through all his/her questions. Resulting in all incorrect answers with times spent on each question close to zero, these users were simply removed another type that was removed were users who did the test from a mobile device. From this type of data cleaning, 16 users were removed (total users was calculated after these had been removed). Another type of data that needed to be cleaned where some questions where the users simply had an extremely high mean time of a question that was out of proportion to the rest of the mean times. This seemed to happen randomly and is likely due to a user leaving the test to do something else and then return. In these cases, a cap of 400 seconds where set and any question mean-time that was higher than that was removed. The 400-second cap was used because the largest normal average was around 100-200 seconds after that we only got a couple of odd outliers with times from 500 seconds and up. There were some smaller oddities that had to be handled as well but we will not go into these in detail in this report. The data was removed by two different ways, if a user had to be removed it was simply unselected in the SQL query to the database. If on the other hand a value had to be modified or a single question result dropped this was done in the python script on the data frame.
+\\\\
+Data analysis bbc/qq and t-testing on results
+\\\\
+Analysis of sus and explanation that formula was made
 
+
+ 
 %-----------------------------------
 %	SUBSECTION 1
 %-----------------------------------
 \subsection{Results}
 
-Nunc posuere quam at lectus tristique eu ultrices augue venenatis. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Aliquam erat volutpat. Vivamus sodales tortor eget quam adipiscing in vulputate ante ullamcorper. Sed eros ante, lacinia et sollicitudin et, aliquam sit amet augue. In hac habitasse platea dictumst.
+Prata här om functionerna som du kom fram till exempelvis med Sus. Allt som droppades lades till manipulerades...
 
 %-----------------------------------
 %	SUBSECTION 2
 %-----------------------------------
 
 \subsection{Discussion}
-Morbi rutrum odio eget arcu adipiscing sodales. Aenean et purus a est pulvinar pellentesque. Cras in elit neque, quis varius elit. Phasellus fringilla, nibh eu tempus venenatis, dolor elit posuere quam, quis adipiscing urna leo nec orci. Sed nec nulla auctor odio aliquet consequat. Ut nec nulla in ante ullamcorper aliquam at sed dolor. Phasellus fermentum magna in augue gravida cursus. Cras sed pretium lorem. Pellentesque eget ornare odio. Proin accumsan, massa viverra cursus pharetra, ipsum nisi lobortis velit, a malesuada dolor lorem eu neque.
+Hur gick det? varför tolkades datan som den gjordes varför behövde vissa saker droppas etc... Varför valde du att göra som du gjorde med sus data. Hur valde du resultat för t-testing. Hur mycket kan du ha missat
+
+
 
 %----------------------------------------------------------------------------------------
 %	SECTION 2
 %----------------------------------------------------------------------------------------
 
 \section{Conclusion}
-
-Sed ullamcorper quam eu nisl interdum at interdum enim egestas. Aliquam placerat justo sed lectus lobortis ut porta nisl porttitor. Vestibulum mi dolor, lacinia molestie gravida at, tempus vitae ligula. Donec eget quam sapien, in viverra eros. Donec pellentesque justo a massa fringilla non vestibulum metus vestibulum. Vestibulum in orci quis felis tempor lacinia. Vivamus ornare ultrices facilisis. Ut hendrerit volutpat vulputate. Morbi condimentum venenatis augue, id porta ipsum vulputate in. Curabitur luctus tempus justo. Vestibulum risus lectus, adipiscing nec condimentum quis, condimentum nec nisl. Aliquam dictum sagittis velit sed iaculis. Morbi tristique augue sit amet nulla pulvinar id facilisis ligula mollis. Nam elit libero, tincidunt ut aliquam at, molestie in quam. Aenean rhoncus vehicula hendrerit.
+Är du nöjd med resultaten vad hade kunnat förbättras/göras om.
+The manipulation of the data allowed me to make it more understandable for my users and easier to draw conclutions without loosing any information

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2018.1.25)  6 MAY 2018 22:10
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2018.1.25)  12 MAY 2018 13:50
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1626,7 +1626,8 @@ Package csquotes Info: ... found 'babel' package.
 (./main.aux (./Chapters/Chapter1.aux) (./Chapters/Chapter2.aux)
 (./Chapters/Chapter3.aux) (./Chapters/Chapter4.aux) (./Chapters/Chapter5.aux)
 (./Chapters/Pilotstudy.aux) (./Chapters/Chapter6.aux) (./Chapters/Chapter7.aux)
-(./Chapters/Chapter8.aux) (./Chapters/Chapter9.aux) (./Chapters/Chapter10.aux))
+(./Chapters/Chapter8.aux) (./Chapters/Chapter9.aux) (./Chapters/Chapter10.aux)
+(./Appendices/Appendix.aux))
 \openout1 = `main.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 90.
@@ -1646,6 +1647,7 @@ LaTeX Font Info:    ... okay on input line 90.
 LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 90.
 LaTeX Font Info:    ... okay on input line 90.
 LaTeX Font Info:    Try loading font information for T1+ppl on input line 90.
+
 (/usr/local/texlive/2017/texmf-dist/tex/latex/psnfss/t1ppl.fd
 File: t1ppl.fd 2001/06/04 font definitions for T1/ppl.
 )
@@ -1981,6 +1983,11 @@ LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <17.28> not available
 (Font)              Font shape `T1/ppl/b/n' tried instead on input line 3.
 LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <14.4> not available
 (Font)              Font shape `T1/ppl/b/n' tried instead on input line 22.
+
+Underfull \hbox (badness 10000) in paragraph at lines 26--29
+
+ []
+
 1: section
 [1
 
@@ -1991,7 +1998,12 @@ LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <14.4> not available
  (./Chapters/Chapter2.tex
 Chapter 2.
 
-Underfull \hbox (badness 10000) in paragraph at lines 17--20
+Underfull \hbox (badness 10000) in paragraph at lines 13--16
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 18--21
 
  []
 
@@ -2002,54 +2014,38 @@ Underfull \hbox (badness 10000) in paragraph at lines 17--20
 
 ]
 LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <12> not available
-(Font)              Font shape `T1/ppl/b/n' tried instead on input line 33.
+(Font)              Font shape `T1/ppl/b/n' tried instead on input line 30.
  [4]
-
-! LaTeX Error: There's no line here to end.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.46 T
-      here are several ways in which users' can fail to accomplish their tas...
-
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 46--55
+Underfull \hbox (badness 10000) in paragraph at lines 40--51
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 46--55
+Underfull \hbox (badness 10000) in paragraph at lines 40--51
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 46--55
+Underfull \hbox (badness 10000) in paragraph at lines 40--51
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 46--55
+Underfull \hbox (badness 10000) in paragraph at lines 40--51
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 40--51
 
  []
 
 [5] [6] [7]
-Underfull \hbox (badness 10000) in paragraph at lines 86--89
+Underfull \hbox (badness 10000) in paragraph at lines 84--87
 
  []
 
-
-Overfull \hbox (26.51958pt too wide) in paragraph at lines 90--91
-\T1/ppl/m/n/10.95 referense(https://redux-saga.js.org/docs/introduction/ and ht
-tps://github.com/redux-
- []
-
-) [8] [9]
+[8]) [9]
 \openout2 = `Chapters/Chapter3.aux'.
 
  (./Chapters/Chapter3.tex [10
@@ -2058,13 +2054,28 @@ tps://github.com/redux-
 
 ]
 Chapter 3.
+<Images/phases.png, id=683, 846.16125pt x 126.4725pt>
+File: Images/phases.png Graphic file (type png)
+ <use Images/phases.png>
+Package pdftex.def Info: Images/phases.png used on input line 18.
+(pdftex.def)             Requested size: 369.88582pt x 55.28526pt.
 )
-Underfull \hbox (badness 10000) in paragraph at lines 18--220
+Underfull \hbox (badness 10000) in paragraph at lines 14--220
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 14--220
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 14--220
 
  []
 
 1: section
-[11]
+[11 <./Images/phases.png>]
 \openout2 = `Chapters/Chapter4.aux'.
 
  (./Chapters/Chapter4.tex [12
@@ -2073,118 +2084,98 @@ Underfull \hbox (badness 10000) in paragraph at lines 18--220
 
 ]
 Chapter 4.
-<Images/QQ.png, id=753, 1437.37pt x 825.0825pt>
+1: section
+[13] <Images/QQ.png, id=704, 1437.37pt x 825.0825pt>
 File: Images/QQ.png Graphic file (type png)
  <use Images/QQ.png>
-Package pdftex.def Info: Images/QQ.png used on input line 27.
+Package pdftex.def Info: Images/QQ.png used on input line 28.
 (pdftex.def)             Requested size: 284.52756pt x 163.32655pt.
 
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-1: section
-[13] <Images/QQ_menubar.png, id=764, 1038.88126pt x 92.345pt>
+<Images/QQ_menubar.png, id=706, 1038.88126pt x 92.345pt>
 File: Images/QQ_menubar.png Graphic file (type png)
 
 <use Images/QQ_menubar.png>
-Package pdftex.def Info: Images/QQ_menubar.png used on input line 37.
+Package pdftex.def Info: Images/QQ_menubar.png used on input line 38.
 (pdftex.def)             Requested size: 284.52756pt x 25.29138pt.
-
-<Images/ebay.png, id=767, 1444.39626pt x 825.0825pt>
+ [14 <./Images/QQ.png> <./Images/QQ_menubar.png>]
+<Images/ebay.png, id=718, 1444.39626pt x 825.0825pt>
 File: Images/ebay.png Graphic file (type png)
  <use Images/ebay.png>
-Package pdftex.def Info: Images/ebay.png used on input line 50.
+Package pdftex.def Info: Images/ebay.png used on input line 51.
 (pdftex.def)             Requested size: 284.52756pt x 162.52081pt.
 
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-<Images/ebay_menu.png, id=768, 1215.54124pt x 333.245pt>
+<Images/ebay_menu.png, id=719, 1215.54124pt x 333.245pt>
 File: Images/ebay_menu.png Graphic file (type png)
 
 <use Images/ebay_menu.png>
-Package pdftex.def Info: Images/ebay_menu.png used on input line 58.
+Package pdftex.def Info: Images/ebay_menu.png used on input line 59.
 (pdftex.def)             Requested size: 284.52756pt x 78.0024pt.
 
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-<Images/Taobao.png, id=771, 1444.39626pt x 823.075pt>
+<Images/Taobao.png, id=722, 1444.39626pt x 823.075pt>
 File: Images/Taobao.png Graphic file (type png)
  <use Images/Taobao.png>
-Package pdftex.def Info: Images/Taobao.png used on input line 69.
+Package pdftex.def Info: Images/Taobao.png used on input line 70.
 (pdftex.def)             Requested size: 284.52756pt x 162.12538pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<Images/Taobao_menu.png, id=772, 1295.84125pt x 412.54124pt>
+<Images/Taobao_menu.png, id=723, 1295.84125pt x 412.54124pt>
 File: Images/Taobao_menu.png Graphic file (type png)
 
 <use Images/Taobao_menu.png>
-Package pdftex.def Info: Images/Taobao_menu.png used on input line 77.
+Package pdftex.def Info: Images/Taobao_menu.png used on input line 78.
 (pdftex.def)             Requested size: 284.52756pt x 90.5831pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[14 <./Images/QQ.png> <./Images/QQ_menubar.png>]
-<Images/ctrip_chinese1.png, id=781, 1419.3025pt x 631.35875pt>
+<Images/ctrip_chinese1.png, id=726, 1419.3025pt x 631.35875pt>
 File: Images/ctrip_chinese1.png Graphic file (type png)
 
 <use Images/ctrip_chinese1.png>
-Package pdftex.def Info: Images/ctrip_chinese1.png used on input line 88.
+Package pdftex.def Info: Images/ctrip_chinese1.png used on input line 89.
 (pdftex.def)             Requested size: 284.52756pt x 126.56816pt.
 
-<Images/ctrip_chinese2.png, id=782, 1407.2575pt x 687.56876pt>
+<Images/ctrip_chinese2.png, id=727, 1407.2575pt x 687.56876pt>
 File: Images/ctrip_chinese2.png Graphic file (type png)
 
 <use Images/ctrip_chinese2.png>
-Package pdftex.def Info: Images/ctrip_chinese2.png used on input line 89.
+Package pdftex.def Info: Images/ctrip_chinese2.png used on input line 90.
 (pdftex.def)             Requested size: 284.52756pt x 139.01158pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<Images/ctrip_eng1.png, id=783, 1389.19pt x 665.48625pt>
+<Images/ctrip_eng1.png, id=728, 1389.19pt x 665.48625pt>
 File: Images/ctrip_eng1.png Graphic file (type png)
 
 <use Images/ctrip_eng1.png>
-Package pdftex.def Info: Images/ctrip_eng1.png used on input line 97.
+Package pdftex.def Info: Images/ctrip_eng1.png used on input line 98.
 (pdftex.def)             Requested size: 284.52756pt x 136.30371pt.
 
-<Images/ctrip_eng2.png, id=784, 1389.19pt x 688.5725pt>
+<Images/ctrip_eng2.png, id=729, 1389.19pt x 688.5725pt>
 File: Images/ctrip_eng2.png Graphic file (type png)
 
 <use Images/ctrip_eng2.png>
-Package pdftex.def Info: Images/ctrip_eng2.png used on input line 98.
+Package pdftex.def Info: Images/ctrip_eng2.png used on input line 99.
 (pdftex.def)             Requested size: 284.52756pt x 141.03218pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
+
+Underfull \hbox (badness 10000) in paragraph at lines 108--111
+
+ []
+
 [15 <./Images/ebay.png> <./Images/ebay_menu.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 110--113
+Underfull \hbox (badness 10000) in paragraph at lines 118--123
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 120--132
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 120--132
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 120--132
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 120--132
+Underfull \hbox (badness 10000) in paragraph at lines 118--123
 
  []
 
@@ -2236,7 +2227,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 15--18
 
 
 
-] <Images/pilot_study_bbc_mean_time.png, id=858, 373.395pt x 264.99pt>
+] <Images/pilot_study_bbc_mean_time.png, id=802, 373.395pt x 264.99pt>
 File: Images/pilot_study_bbc_mean_time.png Graphic file (type png)
 
 <use Images/pilot_study_bbc_mean_time.png>
@@ -2244,15 +2235,16 @@ Package pdftex.def Info: Images/pilot_study_bbc_mean_time.png used on input lin
 e 74.
 (pdftex.def)             Requested size: 170.71652pt x 121.15288pt.
 
-<Images/pilot_study_bbc_failed.png, id=859, 376.40625pt x 264.99pt>
+<Images/pilot_study_bbc_failed.png, id=803, 376.40625pt x 264.99pt>
 File: Images/pilot_study_bbc_failed.png Graphic file (type png)
 
 <use Images/pilot_study_bbc_failed.png>
 Package pdftex.def Info: Images/pilot_study_bbc_failed.png used on input line 7
 5.
 (pdftex.def)             Requested size: 170.71652pt x 120.18651pt.
-
-<Images/pilot_study_qq_mean_time.png, id=860, 373.395pt x 264.99pt>
+ [22 <./Images/pilot_study_bbc_mean_time.png> <./Images/pilot_study_bbc_failed.
+png>]
+<Images/pilot_study_qq_mean_time.png, id=823, 373.395pt x 264.99pt>
 File: Images/pilot_study_qq_mean_time.png Graphic file (type png)
 
 <use Images/pilot_study_qq_mean_time.png>
@@ -2260,7 +2252,7 @@ Package pdftex.def Info: Images/pilot_study_qq_mean_time.png used on input line
  84.
 (pdftex.def)             Requested size: 170.71652pt x 121.15288pt.
 
-<Images/pilot_study_qq_failed.png, id=861, 383.4325pt x 264.99pt>
+<Images/pilot_study_qq_failed.png, id=824, 383.4325pt x 264.99pt>
 File: Images/pilot_study_qq_failed.png Graphic file (type png)
 
 <use Images/pilot_study_qq_failed.png>
@@ -2268,10 +2260,6 @@ Package pdftex.def Info: Images/pilot_study_qq_failed.png used on input line 85
 .
 (pdftex.def)             Requested size: 170.71652pt x 117.98285pt.
 
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-
 Underfull \hbox (badness 10000) in paragraph at lines 92--97
 
  []
@@ -2281,21 +2269,20 @@ Underfull \hbox (badness 10000) in paragraph at lines 92--97
 
  []
 
-[22 <./Images/pilot_study_bbc_mean_time.png> <./Images/pilot_study_bbc_failed.p
-ng>] [23 <./Images/pilot_study_qq_mean_time.png> <./Images/pilot_study_qq_faile
-d.png>]) [24]
+[23 <./Images/pilot_study_qq_mean_time.png> <./Images/pilot_study_qq_failed.png
+>]) [24]
 \openout2 = `Chapters/Chapter6.aux'.
 
  (./Chapters/Chapter6.tex
 Chapter 7.
 
-Overfull \hbox (10.99179pt too wide) in paragraph at lines 14--15
+Overfull \hbox (10.99179pt too wide) in paragraph at lines 25--26
 \T1/ppl/m/n/10.95 china, pos-si-bil-ity of web con-nec-tion get-ting in-ter-rup
 ted, mea-sur-ing cor-rect be-haviours,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 18--21
+Underfull \hbox (badness 10000) in paragraph at lines 29--32
 
  []
 
@@ -2304,246 +2291,328 @@ Underfull \hbox (badness 10000) in paragraph at lines 18--21
 
 
 
-] <Images/homepage.png, id=899, 2890.8pt x 1491.5725pt>
+] [26] <Images/homepage.png, id=856, 2890.8pt x 1491.5725pt>
 File: Images/homepage.png Graphic file (type png)
 
 <use Images/homepage.png>
-Package pdftex.def Info: Images/homepage.png used on input line 27.
+Package pdftex.def Info: Images/homepage.png used on input line 39.
 (pdftex.def)             Requested size: 284.52756pt x 146.799pt.
 
-<Images/homepage_text_en.png, id=900, 2890.8pt x 1403.2425pt>
+<Images/homepage_text_en.png, id=857, 2890.8pt x 1403.2425pt>
 File: Images/homepage_text_en.png Graphic file (type png)
 
 <use Images/homepage_text_en.png>
-Package pdftex.def Info: Images/homepage_text_en.png used on input line 35.
+Package pdftex.def Info: Images/homepage_text_en.png used on input line 46.
 (pdftex.def)             Requested size: 284.52756pt x 138.10565pt.
 
-<Images/homepage_text_zh.png, id=901, 2890.8pt x 1403.2425pt>
+<Images/homepage_text_zh.png, id=858, 2890.8pt x 1403.2425pt>
 File: Images/homepage_text_zh.png Graphic file (type png)
 
 <use Images/homepage_text_zh.png>
-Package pdftex.def Info: Images/homepage_text_zh.png used on input line 36.
+Package pdftex.def Info: Images/homepage_text_zh.png used on input line 47.
 (pdftex.def)             Requested size: 284.52756pt x 138.10565pt.
-
-<Images/view_bbc.png, id=903, 1429.34pt x 708.6475pt>
+ [27 <./Images/homepage.png> <./Images/homepage_text_en.png> <./Images/homepage
+_text_zh.png>]
+<Images/view_bbc.png, id=869, 1429.34pt x 708.6475pt>
 File: Images/view_bbc.png Graphic file (type png)
 
 <use Images/view_bbc.png>
-Package pdftex.def Info: Images/view_bbc.png used on input line 47.
+Package pdftex.def Info: Images/view_bbc.png used on input line 60.
 (pdftex.def)             Requested size: 199.16928pt x 98.74501pt.
- <Images/view_qq.png, id=904, 1429.34pt x 708.6475pt>
+ <Images/view_qq.png, id=870, 1429.34pt x 708.6475pt>
 File: Images/view_qq.png Graphic file (type png)
 
 <use Images/view_qq.png>
-Package pdftex.def Info: Images/view_qq.png used on input line 48.
+Package pdftex.def Info: Images/view_qq.png used on input line 61.
 (pdftex.def)             Requested size: 199.16928pt x 98.74501pt.
- <Images/qq_site_zh.png, id=905, 2890.8pt x 3998.94pt>
-File: Images/qq_site_zh.png Graphic file (type png)
 
-<use Images/qq_site_zh.png>
-Package pdftex.def Info: Images/qq_site_zh.png used on input line 55.
-(pdftex.def)             Requested size: 199.16928pt x 275.50003pt.
-
-<Images/qq_site_en.png, id=906, 2890.8pt x 4725.655pt>
-File: Images/qq_site_en.png Graphic file (type png)
-
-<use Images/qq_site_en.png>
-Package pdftex.def Info: Images/qq_site_en.png used on input line 56.
-(pdftex.def)             Requested size: 199.16928pt x 325.5658pt.
-
-<Images/bbc_site_zh.png, id=907, 2890.8pt x 10439.0pt>
-File: Images/bbc_site_zh.png Graphic file (type png)
-
-<use Images/bbc_site_zh.png>
-Package pdftex.def Info: Images/bbc_site_zh.png used on input line 63.
-(pdftex.def)             Requested size: 199.16928pt x 719.17679pt.
-
-<Images/bbc_site_en.png, id=908, 2890.8pt x 10722.0575pt>
-File: Images/bbc_site_en.png Graphic file (type png)
-
-<use Images/bbc_site_en.png>
-Package pdftex.def Info: Images/bbc_site_en.png used on input line 64.
-(pdftex.def)             Requested size: 199.16928pt x 738.67755pt.
-
-
-LaTeX Warning: Float too large for page by 80.77934pt on input line 68.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 42--69
+Underfull \hbox (badness 10000) in paragraph at lines 55--66
 
  []
 
-[26 <./Images/homepage.png> <./Images/homepage_text_en.png> <./Images/homepage_
-text_zh.png>]
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-<Images/sus.png, id=918, 2890.8pt x 5584.865pt>
+[28 <./Images/view_bbc.png> <./Images/view_qq.png>]
+<Images/sus.png, id=877, 2321.67375pt x 5434.3025pt>
 File: Images/sus.png Graphic file (type png)
  <use Images/sus.png>
-Package pdftex.def Info: Images/sus.png used on input line 77.
-(pdftex.def)             Requested size: 199.16928pt x 384.75958pt.
+Package pdftex.def Info: Images/sus.png used on input line 75.
+(pdftex.def)             Requested size: 199.16928pt x 466.18002pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 84--94
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 84--94
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 84--94
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 84--94
+
+ []
+
+[29 <./Images/sus.png>] <Images/db_eer.png, id=884, 1373.13pt x 1258.7025pt>
+File: Images/db_eer.png Graphic file (type png)
+
+<use Images/db_eer.png>
+Package pdftex.def Info: Images/db_eer.png used on input line 97.
+(pdftex.def)             Requested size: 284.52756pt x 260.80138pt.
+ [30 <./Images/db_eer.png (PNG copy)>]) [31] [32]
+\openout2 = `Chapters/Chapter7.aux'.
+
+
+(./Chapters/Chapter7.tex
+Chapter 8.
+
+Underfull \hbox (badness 10000) in paragraph at lines 15--19
+
+ []
+
+1: section
+[33
+
+
+
+]) [34]
+\openout2 = `Chapters/Chapter8.aux'.
+
+ (./Chapters/Chapter8.tex
+Chapter 9.
+
+Underfull \hbox (badness 10000) in paragraph at lines 13--16
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 18--21
+
+ []
+
+1: section
+[35
+
+
+
+] <Images/bbc_correct_res.png, id=928, 376.40625pt x 264.99pt>
+File: Images/bbc_correct_res.png Graphic file (type png)
+
+<use Images/bbc_correct_res.png>
+Package pdftex.def Info: Images/bbc_correct_res.png used on input line 28.
+(pdftex.def)             Requested size: 284.52756pt x 200.32298pt.
+
+<Images/bbc_time_res.png, id=929, 373.395pt x 264.99pt>
+File: Images/bbc_time_res.png Graphic file (type png)
+
+<use Images/bbc_time_res.png>
+Package pdftex.def Info: Images/bbc_time_res.png used on input line 29.
+(pdftex.def)             Requested size: 284.52756pt x 201.93227pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<Images/done.png, id=919, 2890.8pt x 1569.865pt>
+[36]
+Underfull \hbox (badness 10000) in paragraph at lines 37--40
+
+ []
+
+[37 <./Images/bbc_correct_res.png> <./Images/bbc_time_res.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 42--45
+
+ []
+
+<Images/qq_correct_res.png, id=947, 376.40625pt x 264.99pt>
+File: Images/qq_correct_res.png Graphic file (type png)
+
+<use Images/qq_correct_res.png>
+Package pdftex.def Info: Images/qq_correct_res.png used on input line 51.
+(pdftex.def)             Requested size: 284.52756pt x 200.32298pt.
+
+<Images/qq_time_res.png, id=948, 373.395pt x 264.99pt>
+File: Images/qq_time_res.png Graphic file (type png)
+
+<use Images/qq_time_res.png>
+Package pdftex.def Info: Images/qq_time_res.png used on input line 52.
+(pdftex.def)             Requested size: 284.52756pt x 201.93227pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+Underfull \hbox (badness 2205) in paragraph at lines 90--90
+\T1/ppl/m/n/10.95 much in-con-sis-tency in this
+ []
+
+
+Underfull \hbox (badness 1776) in paragraph at lines 110--110
+\T1/ppl/m/n/10.95 of in-for-ma-tion on this site
+ []
+
+
+Overfull \hbox (39.03593pt too wide) in paragraph at lines 62--122
+ [] 
+ []
+
+[38] [39 <./Images/qq_correct_res.png> <./Images/qq_time_res.png>]
+<Images/sus_res.png, id=960, 1704.3675pt x 843.15pt>
+File: Images/sus_res.png Graphic file (type png)
+ <use Images/sus_res.png>
+Package pdftex.def Info: Images/sus_res.png used on input line 126.
+(pdftex.def)             Requested size: 426.79134pt x 211.13434pt.
+
+Overfull \hbox (22.76225pt too wide) in paragraph at lines 126--128
+ [][] 
+ []
+
+) [40 <./Images/sus_res.png>]
+\openout2 = `Chapters/Chapter9.aux'.
+
+ (./Chapters/Chapter9.tex
+Chapter 10.
+)
+Underfull \hbox (badness 10000) in paragraph at lines 13--227
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 13--227
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 13--227
+
+ []
+
+1: section
+[41
+
+
+
+] [42]
+\openout2 = `Chapters/Chapter10.aux'.
+
+ (./Chapters/Chapter10.tex
+Chapter 11.
+
+Underfull \hbox (badness 10000) in paragraph at lines 12--15
+
+ []
+
+1: section
+[43
+
+
+
+]) [44]
+\openout2 = `Appendices/Appendix.aux'.
+
+ (./Appendices/Appendix.tex
+Appendix A.
+<Images/qq_site_zh.png, id=983, 2890.8pt x 3998.94pt>
+File: Images/qq_site_zh.png Graphic file (type png)
+
+<use Images/qq_site_zh.png>
+Package pdftex.def Info: Images/qq_site_zh.png used on input line 14.
+(pdftex.def)             Requested size: 199.16928pt x 275.50003pt.
+
+<Images/qq_site_en.png, id=984, 2890.8pt x 4725.655pt>
+File: Images/qq_site_en.png Graphic file (type png)
+
+<use Images/qq_site_en.png>
+Package pdftex.def Info: Images/qq_site_en.png used on input line 15.
+(pdftex.def)             Requested size: 199.16928pt x 325.5658pt.
+
+<Images/bbc_site_zh.png, id=985, 2890.8pt x 10439.0pt>
+File: Images/bbc_site_zh.png Graphic file (type png)
+
+<use Images/bbc_site_zh.png>
+Package pdftex.def Info: Images/bbc_site_zh.png used on input line 22.
+(pdftex.def)             Requested size: 199.16928pt x 719.17679pt.
+
+<Images/bbc_site_en.png, id=986, 2890.8pt x 10722.0575pt>
+File: Images/bbc_site_en.png Graphic file (type png)
+
+<use Images/bbc_site_en.png>
+Package pdftex.def Info: Images/bbc_site_en.png used on input line 23.
+(pdftex.def)             Requested size: 199.16928pt x 738.67755pt.
+
+
+LaTeX Warning: Float too large for page by 80.77934pt on input line 27.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<Images/done.png, id=987, 2890.8pt x 1569.865pt>
 File: Images/done.png Graphic file (type png)
  <use Images/done.png>
-Package pdftex.def Info: Images/done.png used on input line 84.
+Package pdftex.def Info: Images/done.png used on input line 31.
 (pdftex.def)             Requested size: 284.52756pt x 154.50446pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 92--102
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 92--102
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 92--102
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 92--102
-
- []
-
-[27 <./Images/view_bbc.png> <./Images/view_qq.png>]
-<Images/db_eer.png, id=925, 1373.13pt x 1258.7025pt>
-File: Images/db_eer.png Graphic file (type png)
- <use Images/db_eer.png>
-Package pdftex.def Info: Images/db_eer.png used on input line 105.
-(pdftex.def)             Requested size: 284.52756pt x 260.80138pt.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-[28 <./Images/qq_site_zh.png> <./Images/qq_site_en.png>] [29]) [30] [31 <./Imag
-es/bbc_site_zh.png> <./Images/bbc_site_en.png>] [32 <./Images/sus.png> <./Image
-s/done.png>] [33 <./Images/db_eer.png (PNG copy)>]
-\openout2 = `Chapters/Chapter7.aux'.
-
- (./Chapters/Chapter7.tex
-[34
-
-
-
-]
-Chapter 8.
-
-Underfull \hbox (badness 10000) in paragraph at lines 15--23
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 15--23
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 15--23
-
- []
-
-1: section
-[35]) [36]
-\openout2 = `Chapters/Chapter8.aux'.
-
- (./Chapters/Chapter8.tex
-Chapter 9.
 )
 1: section
-[37
+[45
 
 
 
-]
-\openout2 = `Chapters/Chapter9.aux'.
-
- (./Chapters/Chapter9.tex [38
-
+ <./Images/qq_site_zh.png> <./Images/qq_site_en.png>] [46 <./Images/bbc_site_zh
+.png> <./Images/bbc_site_en.png>] [47 <./Images/done.png>] [48
 
 
 ]
-Chapter 10.
-
-Package hyperref Warning: Difference (2) between bookmark levels is greater 
-(hyperref)                than one, level fixed on input line 12.
+LaTeX Font Info:    Try loading font information for T1+cmtt on input line 249.
 
 
-Overfull \hbox (2.38535pt too wide) in paragraph at lines 16--18
-\T1/ppl/m/n/10.95 // FROM In-ves-ti-ga-tion chap-ter Al-though many of the well
--known web-sites in China
- []
-
-)
-1: section
-[39]
-\openout2 = `Chapters/Chapter10.aux'.
-
- (./Chapters/Chapter10.tex [40
-
-
-
-]
-Chapter 11.
-
-Package hyperref Warning: Difference (2) between bookmark levels is greater 
-(hyperref)                than one, level fixed on input line 12.
-
-
-Overfull \hbox (2.38535pt too wide) in paragraph at lines 16--18
-\T1/ppl/m/n/10.95 // FROM In-ves-ti-ga-tion chap-ter Al-though many of the well
--known web-sites in China
- []
-
-)
-1: section
-[41] [42
-
-
-]
-LaTeX Font Info:    Try loading font information for T1+cmtt on input line 248.
-
- (/usr/local/texlive/2017/texmf-dist/tex/latex/base/t1cmtt.fd
+(/usr/local/texlive/2017/texmf-dist/tex/latex/base/t1cmtt.fd
 File: t1cmtt.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 252.
+
+! Package inputenc Error: Unicode char ̈ (U+308)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.249 \printbibliography[heading=bibintoc]
+                                          
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
 
 1: section
-[43]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 252.
+[49]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 253.
+ [50]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 253.
  (./main.aux (./Chapters/Chapter1.aux) (./Chapters/Chapter2.aux)
 (./Chapters/Chapter3.aux) (./Chapters/Chapter4.aux) (./Chapters/Chapter5.aux)
 (./Chapters/Pilotstudy.aux) (./Chapters/Chapter6.aux) (./Chapters/Chapter7.aux)
-(./Chapters/Chapter8.aux) (./Chapters/Chapter9.aux) (./Chapters/Chapter10.aux))
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 252.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 252.
+(./Chapters/Chapter8.aux) (./Chapters/Chapter9.aux) (./Chapters/Chapter10.aux)
+(./Appendices/Appendix.aux))
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 253.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 253.
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: F32D2504F72B0A8F2A892D750B849AB8;13722.
+(rerunfilecheck)             Checksum: DE2A1546129C332EFF038C2E5F9F4E61;11624.
 Package logreq Info: Writing requests to 'main.run.xml'.
 \openout1 = `main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 33410 strings out of 492995
- 671904 string characters out of 6132704
- 881067 words of memory out of 5000000
- 36285 multiletter control sequences out of 15000+600000
+ 33465 strings out of 492995
+ 673393 string characters out of 6132704
+ 884803 words of memory out of 5000000
+ 36321 multiletter control sequences out of 15000+600000
  48531 words of font info for 81 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 56i,20n,82p,10377b,2303s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 58i,19n,82p,10377b,2303s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2017/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}
 {/usr/local/texlive/2017/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/tex
 live/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texl
@@ -2552,10 +2621,10 @@ e/2017/texmf-dist/fonts/type1/urw/palatino/uplb8a.pfb></usr/local/texlive/2017/
 texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb></usr/local/texlive/2017/texmf-d
 ist/fonts/type1/urw/palatino/uplr8a.pfb></usr/local/texlive/2017/texmf-dist/fon
 ts/type1/urw/palatino/uplri8a.pfb>
-Output written on main.pdf (61 pages, 62998670 bytes).
+Output written on main.pdf (68 pages, 63050461 bytes).
 PDF statistics:
- 1115 PDF objects out of 1200 (max. 8388607)
- 987 compressed objects within 10 object streams
- 258 named destinations out of 1000 (max. 500000)
- 995 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1124 PDF objects out of 1200 (max. 8388607)
+ 977 compressed objects within 10 object streams
+ 263 named destinations out of 1000 (max. 500000)
+ 873 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -17,6 +17,72 @@
 \endgroup
 
 \sortlist[entry]{nty/global/}
+  \entry{AWS}{misc}{}
+    \list{publisher}{1}{%
+      {Amazon}%
+    }
+    \field{labeltitlesource}{title}
+    \field{sortinit}{A}
+    \field{sortinithash}{A}
+    \field{title}{Amazon Web Services (AWS) - Cloud Computing Services}
+    \verb{url}
+    \verb https://aws.amazon.com/
+    \endverb
+    \field{journaltitle}{Amazon}
+  \endentry
+
+  \entry{stats}{book}{}
+    \name{author}{1}{}{%
+      {{hash=ABC}{%
+         family={Arnold},
+         familyi={A\bibinitperiod},
+         given={Barry\bibnamedelima C.},
+         giveni={B\bibinitperiod\bibinitdelim C\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Birkhäuser}%
+    }
+    \strng{namehash}{ABC1}
+    \strng{fullhash}{ABC1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{A}
+    \field{sortinithash}{A}
+    \field{title}{Advances in mathematical and statistical modeling}
+    \field{year}{2008}
+  \endentry
+
+  \entry{AWSDoc}{misc}{}
+    \list{publisher}{1}{%
+      {Amazon}%
+    }
+    \field{labeltitlesource}{title}
+    \field{sortinit}{A}
+    \field{sortinithash}{A}
+    \field{title}{AWS Documentation}
+    \verb{url}
+    \verb https://aws.amazon.com/documentation/
+    \endverb
+    \field{journaltitle}{Amazon}
+  \endentry
+
+  \entry{bbc}{misc}{}
+    \list{publisher}{1}{%
+      {BBC}%
+    }
+    \field{labeltitlesource}{title}
+    \field{sortinit}{B}
+    \field{sortinithash}{B}
+    \field{title}{BBC}
+    \verb{url}
+    \verb http://www.bbc.com/news
+    \endverb
+    \field{journaltitle}{BBC News}
+    \warn{\item Invalid format of field 'date' \item Invalid format of field
+  'date'}
+  \endentry
+
   \entry{brooke1996sus}{article}{}
     \true{moreauthor}
     \name{author}{1}{}{%
@@ -122,33 +188,115 @@
     \field{year}{2008}
   \endentry
 
-  \entry{bbc}{misc}{}
-    \list{publisher}{1}{%
-      {BBC}%
+  \entry{ji2000}{article}{}
+    \name{author}{3}{}{%
+      {{hash=JLJ}{%
+         family={Ji},
+         familyi={J\bibinitperiod},
+         given={Li-Jun},
+         giveni={L\bibinitperiod-J\bibinitperiod},
+      }}%
+      {{hash=PK}{%
+         family={Peng},
+         familyi={P\bibinitperiod},
+         given={Kaiping},
+         giveni={K\bibinitperiod},
+      }}%
+      {{hash=NRE}{%
+         family={Nisbett},
+         familyi={N\bibinitperiod},
+         given={Richard\bibnamedelima E},
+         giveni={R\bibinitperiod\bibinitdelim E\bibinitperiod},
+      }}%
     }
+    \list{publisher}{1}{%
+      {American Psychological Association}%
+    }
+    \strng{namehash}{JLJPKNRE1}
+    \strng{fullhash}{JLJPKNRE1}
+    \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
-    \field{sortinit}{H}
-    \field{sortinithash}{H}
-    \field{title}{Home}
-    \verb{url}
-    \verb http://www.bbc.com/news
-    \endverb
-    \field{journaltitle}{BBC News}
-    \warn{\item Invalid format of field 'date' \item Invalid format of field
-  'date'}
+    \field{sortinit}{J}
+    \field{sortinithash}{J}
+    \field{number}{5}
+    \field{pages}{943}
+    \field{title}{Culture, control, and perception of relationships in the
+  environment.}
+    \field{volume}{78}
+    \field{journaltitle}{Journal of personality and social psychology}
+    \field{year}{2000}
   \endentry
 
-  \entry{qq_homepage}{misc}{}
+  \entry{miyamoto}{article}{}
+    \name{author}{3}{}{%
+      {{hash=MY}{%
+         family={Miyamoto},
+         familyi={M\bibinitperiod},
+         given={Yuri},
+         giveni={Y\bibinitperiod},
+      }}%
+      {{hash=NRE}{%
+         family={Nisbett},
+         familyi={N\bibinitperiod},
+         given={Richard\bibnamedelima E},
+         giveni={R\bibinitperiod\bibinitdelim E\bibinitperiod},
+      }}%
+      {{hash=MT}{%
+         family={Masuda},
+         familyi={M\bibinitperiod},
+         given={Takahiko},
+         giveni={T\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {SAGE Publications Sage CA: Los Angeles, CA}%
+    }
+    \strng{namehash}{MYNREMT1}
+    \strng{fullhash}{MYNREMT1}
+    \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
-    \field{sortinit}{H}
-    \field{sortinithash}{H}
-    \field{title}{homepage}
-    \verb{url}
-    \verb http://www.qq.com/
-    \endverb
-    \field{journaltitle}{QQ homepage}
-    \warn{\item Invalid format of field 'date' \item Invalid format of field
-  'date'}
+    \field{sortinit}{M}
+    \field{sortinithash}{M}
+    \field{number}{2}
+    \field{pages}{113\bibrangedash 119}
+    \field{title}{Culture and the physical environment: Holistic versus
+  analytic perceptual affordances}
+    \field{volume}{17}
+    \field{journaltitle}{Psychological Science}
+    \field{year}{2006}
+  \endentry
+
+  \entry{monga}{article}{}
+    \name{author}{2}{}{%
+      {{hash=MAB}{%
+         family={Monga},
+         familyi={M\bibinitperiod},
+         given={Alokparna\bibnamedelima Basu},
+         giveni={A\bibinitperiod\bibinitdelim B\bibinitperiod},
+      }}%
+      {{hash=JDR}{%
+         family={John},
+         familyi={J\bibinitperiod},
+         given={Deborah\bibnamedelima Roedder},
+         giveni={D\bibinitperiod\bibinitdelim R\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {The University of Chicago Press}%
+    }
+    \strng{namehash}{MABJDR1}
+    \strng{fullhash}{MABJDR1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{M}
+    \field{sortinithash}{M}
+    \field{number}{4}
+    \field{pages}{529\bibrangedash 536}
+    \field{title}{Cultural differences in brand extension evaluation: The
+  influence of analytic versus holistic thinking}
+    \field{volume}{33}
+    \field{journaltitle}{Journal of Consumer Research}
+    \field{year}{2006}
   \endentry
 
   \entry{norman_metrics}{misc}{}
@@ -293,6 +441,74 @@
     \field{sortinit}{P}
     \field{sortinithash}{P}
     \field{title}{How People Read on the Web: The Eyetracking Evidence}
+    \field{year}{2014}
+  \endentry
+
+  \entry{qq_homepage}{misc}{}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{Q}
+    \field{sortinithash}{Q}
+    \field{title}{QQ}
+    \verb{url}
+    \verb http://www.qq.com/
+    \endverb
+    \field{journaltitle}{QQ homepage}
+    \warn{\item Invalid format of field 'date' \item Invalid format of field
+  'date'}
+  \endentry
+
+  \entry{react}{misc}{}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{R}
+    \field{sortinithash}{R}
+    \field{title}{React, a javascript library for building user interfaces}
+    \verb{url}
+    \verb https://reactjs.org/
+    \endverb
+    \field{journaltitle}{A JavaScript library for building user interfaces}
+  \endentry
+
+  \entry{redux}{misc}{}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{R}
+    \field{sortinithash}{R}
+    \field{title}{Redux}
+    \verb{url}
+    \verb https://redux.js.org/
+    \endverb
+    \field{journaltitle}{Read Me - Redux}
+  \endentry
+
+  \entry{redux-saga}{misc}{}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{R}
+    \field{sortinithash}{R}
+    \field{title}{Redux-Saga}
+    \verb{url}
+    \verb https://redux-saga.js.org/
+    \endverb
+    \field{journaltitle}{Read Me · Redux-Saga}
+  \endentry
+
+  \entry{GFC}{article}{}
+    \name{author}{1}{}{%
+      {{hash=SF}{%
+         family={Shen},
+         familyi={S\bibinitperiod},
+         given={Fei},
+         giveni={F\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{SF1}
+    \strng{fullhash}{SF1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{S}
+    \field{sortinithash}{S}
+    \field{pages}{599\bibrangedash 602}
+    \field{title}{Great firewall of China}
+    \field{volume}{22}
+    \field{journaltitle}{Encyclopedia of social media and politics}
     \field{year}{2014}
   \endentry
 

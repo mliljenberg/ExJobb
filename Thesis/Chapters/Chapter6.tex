@@ -8,7 +8,18 @@
 %	SECTION 1
 %----------------------------------------------------------------------------------------
 The goal for this phase is to develop the beta-test,test it, update according to feedback and deploy it. After the web test has been deployed it will be accessible. Several different technologies will be used and described in this chapter to make all of this possible.
-\section{Method}
+\section{Work process}
+This programming phase is the largest and most time consuming part of this thesis and there are several requirents for the tests and it's results to be useful. Requirements needed for the unsupervised test to be usable are the following:
+
+\begin{enumerate}
+	\item The test need to look the same for all users.
+	\item The site needs to be loaded fairly quickly and feedback from the loading process should be displayed to the user.
+	\item The user is not allowed to go back and redo any questions.
+	\item The site has to be fully loaded before the test can be started.
+	\item Users are not allowed to use ctrl-search.
+	\item What site the user will perform their test has to be controlled, this so we receive equal amount of tests for both sites.
+\end{enumerate}
+
 To be able to perform the test on users all over the world without actually having to be there a web based test had to be constructed. The test was made using several different technologies and hosted on aws. 
 
 Several things had to be taken into consideration such as: slower network in china, possibility of web connection getting interrupted, measuring correct behaviours, making sure a completable devices was used for the test (mobile device would not at all test the same thing).
@@ -20,8 +31,9 @@ The most important front-end technology on this website are React, Redux and Red
 Our front-end consist of four different pages. Homepage, bbc, qq, sus and done. The names of these pages are taken from the material that inspired them. The bbc site is not a actual bbc site but is named so since it is inspired from the bbc website. These namings is not something the users see and therefore does not affect them it's only to make it clear what page that is currently being disused. The flow of the test is as follows: The user starts at the Homepage, depending on the last test made by someone the user will either end up at the bbc page or the qq page. Depending on the language selected by this user they will see the page in the selected language. After finishing the bbc or qq test the user will be taken to the questionnaire on the sus page. After this is completed the user will arrive at the done page which contain a simple message thanking the user for their participation and provide my contact information if they have any questions. 
 
 \subsubsection{Homepage}
-The homepage is the first page the user will see. This page is responsible for gathering information needed to decide how the rest of the test will be set-up. The homepage will start by asking the user if they want to do the test in Chinese or English. The test will then proceed to give the user information about the test in their chosen language. The web page will then query the database to check which of the sites that have the least number of tests done (bbc or qq). The user will then be see a description of the test in the selected language (see \ref{fig:homepage} ). After the user finishes reading the description and press "start" the site will start the test.
+The homepage is the first page the user will see. This page is responsible for gathering information needed to decide how the rest of the test will be set-up. The homepage will start by asking the user if they want to do the test in Chinese or English. The test will then proceed to give the user information about the test in their chosen language. The web page will then query the database to check which of the sites that have the least number of tests done (bbc or qq). The user will then be see a description of the test in the selected language (see \ref{fig:homepage} and \ref{fig:homepage_desc}). After the user finishes reading the description and press "start" the site will start the test.
 
+\newpage
 \begin{figure}[h]
 	\centering
 	\includegraphics[width=100mm]{Images/homepage.png}
@@ -29,17 +41,18 @@ The homepage is the first page the user will see. This page is responsible for g
 	\caption[Homepage]{Image of the first page the user is greeted with. }
 	\label{fig:homepage}
 \end{figure}
-
 \begin{figure}[h]
 	\centering
 	\includegraphics[width=100mm]{Images/homepage_text_en.png}
 	\includegraphics[width=100mm]{Images/homepage_text_zh.png}
 	\decoRule
-	\caption[Homepage]{Description in chinese and english.}
+	\caption[Homepage]{Description in Chinese and English.}
 	\label{fig:homepage_desc}
 \end{figure}
+\newpage
+
 \subsubsection{BBC and QQ}
-Both the bbc and qq inspired sites have the same basic layout. When the user arrives at the page a pop-up will appear with a loading bar, this is to make sure the user can't start the test until all the images has been loaded from the server. When all the images have been loaded the user will be able to start the test (see ref....).  
+Both the bbc and qq inspired sites have the same basic layout. When the user arrives at the page a pop-up will appear with a loading bar, this is to make sure the user can't start the test until all the images has been loaded from the server. When all the images have been loaded the user will be able to start the test (see \ref{fig:qq_site} and \ref{fig:bbc_site} in Appendix A for full sites in English and Chinese).  
 \\\\
 All the news in this test has been translated so they have both the English and Chinese versions available depending on what language the user selected from the Homepage. Once the user starts the test a timer starts, the user is not able to see this timer. Each click the user does is recorded, the time it takes to complete the task and if the user gets the correct task or not. The number of questions the user have left to complete is also shown. The questions and what the user has most recently clicked is shown in a bar at the bottom of the screen (see \ref{fig:user_view}). Once the user finishes the test their answers are sent to the database via the API and they are redirected to the SUS site. 
 \begin{figure}[h]
@@ -47,45 +60,24 @@ All the news in this test has been translated so they have both the English and 
 	\includegraphics[width=70mm]{Images/view_bbc.png}
 	\includegraphics[width=70mm]{Images/view_qq.png}
 	\decoRule
-	\caption[Users View]{A example of what it might look for a user when testing bbc and qq inspired websites.}
+	\caption[Users View]{A example of what it can look like for a user when testing bbc and qq inspired websites.}
 	\label{fig:user_view}
 \end{figure}
-\begin{figure}[h]
-	\centering
-	\includegraphics[width=70mm]{Images/qq_site_zh.png}
-	\includegraphics[width=70mm]{Images/qq_site_en.png}
-	\decoRule
-	\caption[QQ]{The full view of QQ site in english and chinese}
-	\label{fig:qq_site}
-\end{figure}
-\begin{figure}[h]
-	\centering
-	\includegraphics[width=70mm]{Images/bbc_site_zh.png}
-	\includegraphics[width=70mm]{Images/bbc_site_en.png}
-	\decoRule
-	\caption[BBC]{The full view of BBC site in english and chinese}
-	\label{fig:bbc_site}
-\end{figure}
 
 
-\subsubsection{SUS}
-This site consists of the before mentioned predefined questions designed to get a understanding for what the user fleet about the website, test and design (See fig \ref{fig:sus_site}). Once the user has answered all the questions and pressed finish their answers will be sent to the database via the api. The user will then be rerouted to the done site where they will see a message thanking them for participating in the test (See fig \ref{fig:done_site}).
+\subsubsection{Questionnaire}
+This site consists of the before mentioned predefined questions designed to get a understanding for what the user feel about the website, test and design (See fig \ref{fig:sus_site}). Once the user has answered all the questions and pressed finish their answers will be sent to the database via the api. The user will then be rerouted to the done site where they will see a message thanking them for participating in the test (See fig \ref{fig:done_site} in Appendix A).
+\newpage
 
 
 \begin{figure}[h]
 	\centering
 	\includegraphics[width=70mm]{Images/sus.png}
 	\decoRule
-	\caption[SUS]{The sus site}
+	\caption[SUS]{The Questionnaire site.}
 	\label{fig:sus_site}
 \end{figure}
-\begin{figure}[h]
-	\centering
-	\includegraphics[width=100mm]{Images/done.png}
-	\decoRule
-	\caption[Done]{Last site the user is shown when they have finished the test. }
-	\label{fig:done_site}
-\end{figure}
+
 
 
 \subsection{Database}
@@ -138,37 +130,10 @@ The beta was tested on about ten people where six did the English version of the
 The launch of the test when fairly quickly with AWS. During the launch the performance of the site was monitored closely and we could thereby see that loading times increased when several people used the site at the same time and not all results where logged in the database. It was quickly concluded this was beacuse a problem with the database connection from the api and within the matter of minutes this bug was fixed and the site was updated. It can be estimated that about 4-5 test results where lost due to this mistake.
 
 \subsection{How the test was conducted}
-it was sent out so only one test person did the test once. No repeats of the test where made
+The test was conducted by the users completely unsupervised. A link was sent to all the users asking them to click the link and perform the test. The users were asked to only perform the test once and on a computer. The rest of the information about the test was described in the first page of the test (see fig: \ref{fig:homepage_desc})
 
-\section{Results} (CHANGE)
-We received quite a few responses from both English and Chinese users. In total we revived about 99 replies from people who did the test. 40 of these where from Chinese users and 59 from English speaking users. Of these users 61 where male and 38 female.  
- 
- The majority of the test subjects are students studying at university. Most of the english speaking students are from Lunds University and the majority of the Chinese speakers are from xxxxx university in China. The rest of the test subjects are a mix of people from the Swedish and Chinese Tetra pak offices.
- The age of the test subjects are quite similar as can be seen in the graph below (/ref here for graph!).
- 
-(Bild från age grafen)
  
 
-\section{Discussion}
-The programing is the largest and most time consuming part of this thesis and there were several requirents of the code for the tests results to be useful. (OBS BORDE DHA MED ALLA REQUIREMTENTS NÅGONSTANTS. The requirements from the code can be seen in (REF TO REQ HERE). On top of previusly decided requirements the following where also added when it was realised that they where needed: 
- \begin{enumerate}
- 	\item Users are not allowed to use ctrl-search
- 	\item What site the user will test on should be controlled, this so we receive equal amount of tests for both sites.
- 	\item 
- \end{enumerate}
-
-The results are from the raw data. This means that the data will have to be cleaned before able to be used. Some examples of what have to be removed are: 
-
-\begin{enumerate}
-	\item Tests done on Phone
-	\item Questions where the user has left the test.
-	\item Tests where the user only skipped through all the questions
-\end{enumerate}
 
 
 
-
-
-
-\section{Conclusion}
-Vad som behövde ändras efter beta, samt panik updatering på mysql databasen, hur vissa trots text försökte göra på mobil

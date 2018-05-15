@@ -7,9 +7,9 @@
 %----------------------------------------------------------------------------------------
 %	SECTION 1
 %----------------------------------------------------------------------------------------
-The goal for this phase is to develop the beta-test,test it, update according to feedback and deploy it. After the web test has been deployed it will be accessible. Several different technologies will be used and described in this chapter to make all of this possible.
+The goal for this phase is to develop the beta-test,test it, update according to feedback and deploy it. After the web test has been deployed, it will be accessible. Several different technologies will be used and described in this chapter to make all of this possible.
 \section{Work process}
-This programming phase is the largest and most time consuming part of this thesis and there are several requirents for the tests and it's results to be useful. Requirements needed for the unsupervised test to be usable are the following:
+The programming phase is the largest and most time consuming part of this thesis and there are several requirements for the tests and it's results to be useful. Requirements needed for the unsupervised test to be usable are the following:
 
 \begin{enumerate}
 	\item The test need to look the same for all users.
@@ -20,15 +20,15 @@ This programming phase is the largest and most time consuming part of this thesi
 	\item What site the user will perform their test has to be controlled, this so we receive equal amount of tests for both sites.
 \end{enumerate}
 
-To be able to perform the test on users all over the world without actually having to be there a web based test had to be constructed. The test was made using several different technologies and hosted on aws. 
+In order to perform the test on users all over the world without the researcher having to be in the same physical location, a web based test had to be constructed. The test was made using several different technologies and hosted on AWS. 
 
-Several things had to be taken into consideration such as: slower network in china, possibility of web connection getting interrupted, measuring correct behaviours, making sure a completable devices was used for the test (mobile device would not at all test the same thing).
+Several things had to be taken into consideration such as: slower network in China, possibility of web connection getting interrupted, measuring correct behaviours, making sure a completable devices was used for the test (mobile device would not at all test the same thing).
 
 
 \subsection{Front-End}
-The most important front-end technology on this website are React, Redux and Redux-Sagas. These three libraries create most of the functionality in website and they work very closely together. With React we show the user what we want him or her to see. All the users behaviours are stored in Redux (imagine a database for the browser), then depending on the updates in Redux, React appropriately up dates the information the users see. Some of the actions a user does triggers a Saga (Example: Pressing the finish button). That Saga then makes a asynchronous call to our API and send over the data stored in Redux to our mysql database hosted on AWS in Seoul. 
+The most important front-end technology on this website are React, Redux and Redux-Sagas. These three libraries create most of the functionality in website and they work very closely together. With React, we show the user what we want him or her to see. All the users behaviours are stored in Redux (imagine a database for the browser), then depending on the updates in Redux, React appropriately updates the information visible to users. Some of the actions a user does triggers a Saga (Example: Pressing the finish button). That Saga then makes an asynchronous call to our API and send over the data stored in Redux to our mysql database hosted on AWS in Seoul. 
 \\\\
-Our front-end consist of four different pages. Homepage, bbc, qq, sus and done. The names of these pages are taken from the material that inspired them. The bbc site is not a actual bbc site but is named so since it is inspired from the bbc website. These namings is not something the users see and therefore does not affect them it's only to make it clear what page that is currently being disused. The flow of the test is as follows: The user starts at the Homepage, depending on the last test made by someone the user will either end up at the bbc page or the qq page. Depending on the language selected by this user they will see the page in the selected language. After finishing the bbc or qq test the user will be taken to the questionnaire on the sus page. After this is completed the user will arrive at the done page which contain a simple message thanking the user for their participation and provide my contact information if they have any questions. 
+Our front-end consists of four different pages. Homepage, bbc, qq, sus and done. The names of these pages are taken from the material that inspired them. The bbc site is not an actual bbc site, but is named so since it is inspired from the bbc website. These names are not visible to users and, therefore, does not affect them. Names are used only to make it clear what page is currently being disused. The flow of the test is as follows: The user starts at the Homepage, depending on the test done by the previous user, the user will either end up at the bbc page or the qq page. Depending on the language selected by this user, they will see the page in the selected language. After finishing the bbc or qq test, the user will be taken to the questionnaire on the sus page. After the questionnaire is completed, the user will arrive at the done page which contain a simple message thanking the user for their participation and provide my contact information if they have any questions. 
 
 \subsubsection{Homepage}
 The homepage is the first page the user will see. This page is responsible for gathering information needed to decide how the rest of the test will be set-up. The homepage will start by asking the user if they want to do the test in Chinese or English. The test will then proceed to give the user information about the test in their chosen language. The web page will then query the database to check which of the sites that have the least number of tests done (bbc or qq). The user will then be see a description of the test in the selected language (see \ref{fig:homepage} and \ref{fig:homepage_desc}). After the user finishes reading the description and press "start" the site will start the test.
@@ -52,9 +52,9 @@ The homepage is the first page the user will see. This page is responsible for g
 \newpage
 
 \subsubsection{BBC and QQ}
-Both the bbc and qq inspired sites have the same basic layout. When the user arrives at the page a pop-up will appear with a loading bar, this is to make sure the user can't start the test until all the images has been loaded from the server. When all the images have been loaded the user will be able to start the test (see \ref{fig:qq_site} and \ref{fig:bbc_site} in Appendix A for full sites in English and Chinese).  
+Both the bbc and qq inspired sites have the same basic layout. When the user arrives at the page, a pop-up will appear with a loading bar. This loading bar is to make sure the user can't start the test until all the images has been loaded from the server. When all the images have been loaded, the user will be able to start the test (see \ref{fig:qq_site} and \ref{fig:bbc_site} in Appendix A for full sites in English and Chinese).  
 \\\\
-All the news in this test has been translated so they have both the English and Chinese versions available depending on what language the user selected from the Homepage. Once the user starts the test a timer starts, the user is not able to see this timer. Each click the user does is recorded, the time it takes to complete the task and if the user gets the correct task or not. The number of questions the user have left to complete is also shown. The questions and what the user has most recently clicked is shown in a bar at the bottom of the screen (see \ref{fig:user_view}). Once the user finishes the test their answers are sent to the database via the API and they are redirected to the SUS site. 
+All the news in this test have been translated, so they have both the English and Chinese versions available depending on what language the user selected from the Homepage. Once the user starts the test, a timer starts. The user is unable to view the timer. Each click the user does is recorded, the time it takes to complete the task and if the user gets the correct task or not. The number of questions the user has left to complete is also shown. The questions and what the user has most recently clicked is shown in a bar at the bottom of the screen (see \ref{fig:user_view}). Once the user finishes the test, their answers are sent to the database via the API and they are redirected to the SUS site. 
 \begin{figure}[h]
 	\centering
 	\includegraphics[width=70mm]{Images/view_bbc.png}
@@ -66,7 +66,7 @@ All the news in this test has been translated so they have both the English and 
 
 
 \subsubsection{Questionnaire}
-This site consists of the before mentioned predefined questions designed to get a understanding for what the user feel about the website, test and design (See fig \ref{fig:sus_site}). Once the user has answered all the questions and pressed finish their answers will be sent to the database via the api. The user will then be rerouted to the done site where they will see a message thanking them for participating in the test (See fig \ref{fig:done_site} in Appendix A).
+This site consists of the aforementioned predefined questions designed to get a understanding for what the user feels about the website, test and design (See fig \ref{fig:sus_site}). Once the user has answered all the questions and pressed finish, their answers will be sent to the database via the api. The user will then be rerouted to the done site where they will see a message thanking them for participating in the test (See fig \ref{fig:done_site} in Appendix A).
 \newpage
 
 
@@ -74,7 +74,7 @@ This site consists of the before mentioned predefined questions designed to get 
 	\centering
 	\includegraphics[width=70mm]{Images/sus.png}
 	\decoRule
-	\caption[SUS]{The Questionnaire site.}
+	\caption[Questionnaire]{The Questionnaire site.}
 	\label{fig:sus_site}
 \end{figure}
 
@@ -83,12 +83,12 @@ This site consists of the before mentioned predefined questions designed to get 
 \subsection{Database}
 The database consists of five diffrent tables: Main, Actions, Questions, Sus and QuestionTexts. (See fig: \ref{fig:db_schema} for figure of the full database) 
 \\\\
-The Main mainly is used to identify the user where each user has a unique row. The table has four columns Id, Site, Language and Age. The id in the main table is the main id to identify a user. This same id can be found for each user in all other tables except QuestionTexts. 
+The Main is used to identify the user where each user has a unique row. The table has four columns: Id, Site, Language and Age. The id in the main table is the main id to identify a user. This same id can be found for each user in all other tables except QuestionTexts. 
 \\\\
 The Questions table contain all the answers from the users, the table has seven columns: Id, MainId, QuestionId, Correct, StartTime, EndTime, Correct, TotalTime. MainId and QuestionId is foregin keys referencing the ids in the Main and QuestionsTexts tables.
 Each row in the Question table contain a answer from a user.
 \\\\
-The Action table contain all the click-actions a user did per question. The table contain seven columns: Id, QuestionsId, PosX, PosY, ScreenWidth, ScreenHeight, RelativeTime. Where QuestionsId is a foregin key referencing the Id in Questions. Each row in the Action table contain a action made by the user.
+The Action table contains all the click-actions a user did per question. The table contains seven columns: Id, QuestionsId, PosX, PosY, ScreenWidth, ScreenHeight, RelativeTime. Where QuestionsId is a foregin key referencing the Id in Questions. Each row in the Action table contain a action made by the user.
 \\\\
 The Sus table simply contains all the users answers to the Sus questions. The QuestionTexs table contain all the questions the user are asked in the test
 
@@ -104,7 +104,7 @@ The Sus table simply contains all the users answers to the Sus questions. The Qu
 A express Api was set up to handle communication between the front-end and database. The Api takes the information that is sent from the users front-end code and transform it into a format that works for the sql database. The Api then quires the database and insert the new data into the database tables.
 
 \subsection{Hosting AWS}
-To host this app on AWS we used the feature called "Elastic Beanstalk" also called eb. Eb allowed us to easily launch a application that automatically set up a EC2 instance, auto scaling, load-balancing, RDS. The services was set up in Seoul. This to decrease the loading time for China as much as possible. Since Seoul also have very good network connections to the rest of the world this does not increase the loading time in Europe and the US that much. A lot of time had to be spent changing parts of the code so it would run on AWS servers.
+To host this app on AWS we used the feature called "Elastic Beanstalk" also called eb. Eb allowed us to easily launch a application that automatically set up a EC2 instance, auto scaling, load-balancing, RDS. The services was set up in Seoul. This to decrease the loading time for China as much as possible. Since Seoul has good network connections to the rest of the world, this does not increase the loading time in Europe and the US that much. A lot of time had to be spent changing parts of the code so it would run on AWS servers.
 
 \subsection{Beta-tests}
 Once a working version of the test was created. A beta test was made to find possible bugs in code and improve user-experience in terms of font-size and design of the testing parts.
@@ -118,19 +118,19 @@ The beta-tests where made in the form of letting users try to finish the test wh
 	\item Left top-side of qq site is too small, because of commercial?
 	\item Wrong spelling in some news.
 	\item Skip task not working.
-	\item Some correct question gets loged as incorrect in database in-spite of being correct.
+	\item Some correct question gets logged as incorrect in database in-spite of being correct.
 	\item Change so the size of the page is constant no matter the screen size. (Looked very bad on a big screen right now.)
 	\item Start time not working correctly on some questions.
 	\item Remove video from questions, does not give any relevant information.
 \end{enumerate}
 
-The beta was tested on about ten people where six did the English version of the test and four the Chinese version. After about eight tests almost no new information about usability problems and bugs where found so it was concluded to finish the beta testing and launch the test.
+The beta was tested on about ten people, where six did the English version of the test and four the Chinese version. After about eight tests, almost no new information about usability problems and bugs where found so it was concluded to finish the beta testing and launch the test.
 
 \subsection{Launch}
-The launch of the test when fairly quickly with AWS. During the launch the performance of the site was monitored closely and we could thereby see that loading times increased when several people used the site at the same time and not all results where logged in the database. It was quickly concluded this was beacuse a problem with the database connection from the api and within the matter of minutes this bug was fixed and the site was updated. It can be estimated that about 4-5 test results where lost due to this mistake.
+The launch of the test went fairly smoothly with AWS. During the launch, the performance of the site was monitored closely and we could thereby see that loading times increased when several people used the site at the same time and not all results where logged in the database. It was quickly concluded this was due to a problem with the database connection from the api and within the matter of minutes, this bug was fixed and the site was updated. It can be estimated that about 4-5 test results where lost due to this mistake.
 
 \subsection{How the test was conducted}
-The test was conducted by the users completely unsupervised. A link was sent to all the users asking them to click the link and perform the test. The users were asked to only perform the test once and on a computer. The rest of the information about the test was described in the first page of the test (see fig: \ref{fig:homepage_desc})
+The test was conducted by the users completely unsupervised. A link was sent to all the users asking them to click the link and perform the test. The users were asked to only preform the test once and on a computer. The rest of the information about the test was described in the first page of the test (see fig: \ref{fig:homepage_desc})
 
  
 
